@@ -8,7 +8,7 @@ This portfolio demonstrates my experience in:
 - Healthcare data management and enterprise solutions
 - E-commerce platform transformation and modernization
 - Vendor evaluation frameworks and procurement processes
-- Revenue strategy and business solution design
+- SaaS product conceptualization and solution design
 
 ---
 
@@ -64,20 +64,22 @@ A structured framework for evaluating vendor proposals through Request for Quota
 
 ---
 
-## 💼 Business Strategy
+## 💼 SaaS Product Concepts
 
-### eRevStr™ - Revenue Strategy Solution
-**Enterprise Revenue Strategy Framework (Draft)**
+### eRevStr™ - String Reversal System
+**SaaS Product Conceptual Case Study (Draft)**
 
-Strategic solution design for revenue optimization and business growth, incorporating modern approaches to revenue management and strategic planning.
+A conceptual case study for a SaaS-based string reversal system. This draft explores the design, architecture, and business model for a cloud-based string processing service.
 
 📄 [View Solution Draft](eRevStr%20™%20-%20Solution%20Draft.pdf)
 
 **Key Areas:**
-- Revenue strategy development
-- Business model optimization
-- Strategic planning frameworks
-- Growth strategy implementation
+- SaaS product architecture
+- String processing algorithms
+- Cloud-based service design
+- Business model and pricing strategy
+- API design and integration
+- Scalability considerations
 
 ---
 
@@ -88,7 +90,7 @@ Across these case studies, I've applied expertise in:
 - **Solution Architecture**: Designing scalable enterprise systems and platforms
 - **Digital Transformation**: Leading modernization initiatives across industries
 - **Data Management**: Building robust data warehouses and analytics platforms
-- **Strategic Planning**: Developing frameworks for business growth and optimization
+- **SaaS Product Design**: Conceptualizing cloud-based solutions and services
 - **Vendor Management**: Creating systematic evaluation and selection processes
 - **Healthcare Technology**: Understanding regulatory requirements and domain-specific challenges
 - **E-Commerce**: Implementing modern retail and digital commerce solutions
