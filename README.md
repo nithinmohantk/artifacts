@@ -20,6 +20,20 @@ An interactive HTML tool for systematic vendor evaluation and comparison analysi
 
 📄 [Open Interactive Tool](Vendor-Comparison-Matrix-Analysis-Framework-Interactive-artifact.html)
 
+### 🔬 Technical Projects & POCs
+
+Explore technical implementations showcasing AI integration, healthcare IT, and modern software architecture:
+
+[**→ View All Technical Projects**](PROJECTS.md)
+
+**Featured Projects:**
+- **ShelfScanner** - Complete AI book discovery platform with CI/CD & microservices
+- **TravelSmart App** - AI-powered travel booking with MCP & OpenAI GPT-4
+- **GenAI RAG Boilerplate** - Production-ready RAG system with LangChain & Milvus
+- **GenAI Chatbot (.NET)** - Multi-tenant chatbot with React & OpenAI integration
+- **Healthcare Interoperability Platform** - Multi-standard (FHIR, HL7) .NET solution
+- **.NET REST API & GraphQL Starter** - Modern API development template
+
 ---
 
 ## 👤 About
