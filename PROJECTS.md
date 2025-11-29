@@ -1,103 +1,38 @@
-# Technical Projects & Proof of Concepts
+# Technical Projects
 
-A collection of technical implementations, proof-of-concept demonstrations, and innovative solutions showcasing expertise in modern software development, AI integration, healthcare IT, and data analytics.
-
----
-
-## 🤖 AI & Integration
-
-### TravelSmart App - AI-Powered Travel Booking Platform
-**Intelligent Trip Planning with MCP & OpenAI Integration**
-
-A demonstration application showcasing advanced AI integration capabilities by combining OpenAI GPT-4 with Model Context Protocol (MCP) servers for intelligent, context-aware travel planning and booking experiences.
-
-🔗 [View Repository](https://github.com/nithinmohantk/TravelSmart-App-Concept)
-
-**Key Features:**
-- **AI-Powered Trip Planning** - Intelligent itinerary generation using GPT-4
-- **MCP Server Integration** - Seamless context management and protocol implementation
-- **Real-Time Weather Insights** - Dynamic weather data integration for destinations
-- **Smart Booking System** - Automated booking recommendations and processing
-- **Multi-Interface Support** - Both REST API and CLI interfaces
-
-**Architecture Highlights:**
-- **FastAPI REST API** - Modern, high-performance web framework
-- **CLI Interface** - Command-line tools for power users
-- **Modular Microservices** - Scalable, loosely-coupled service architecture
-- **Poetry Dependency Management** - Modern Python packaging and dependency resolution
-
-**Technologies:**
-- Python 3.x
-- OpenAI GPT-4 API
-- Model Context Protocol (MCP)
-- FastAPI
-- Poetry
-- Microservices Architecture
-
-**Purpose:** Demonstration of AI/ML integration capabilities and modern architectural patterns
+Real-world implementations and experiments across AI, healthcare IT, and modern software development.
 
 ---
 
-### ShelfScanner - Complete AI Book Discovery Platform
-**Full-Stack AI Application with Modern DevOps Practices**
+## 🤖 AI & Modern Apps
 
-A comprehensive, production-ready AI application demonstrating end-to-end software development best practices. ShelfScanner combines AI-powered book discovery with modern architectural patterns, containerization, and automated CI/CD workflows.
+### TravelSmart App
+AI travel planner combining GPT-4 with Model Context Protocol for smart itinerary generation and real-time weather insights.
 
-🔗 [View Repository](https://github.com/nithinmohantk/shelfscanner-ai-app-project)
+🔗 [github.com/nithinmohantk/TravelSmart-App-Concept](https://github.com/nithinmohantk/TravelSmart-App-Concept)
 
-**Key Features:**
-- **AI-Powered Book Discovery** - Intelligent book recommendations and search
-- **Full-Stack Architecture** - Complete frontend and backend implementation
-- **Containerization** - Docker-based deployment and orchestration
-- **CI/CD Pipeline** - Automated testing, building, and deployment
-- **Microservices Architecture** - Scalable, modular service design
-- **Production-Ready** - Enterprise-grade error handling and security
-
-**Best Practices Demonstrated:**
-- Proper error handling and logging
-- Type safety and code quality
-- Security measures and authentication
-- Scalable design patterns
-- Test-driven development
-- Infrastructure as Code
-
-**Technologies:**
-- Modern web frameworks
-- AI/ML integration
-- Docker & Kubernetes
-- CI/CD automation
-- Microservices patterns
-- Cloud-native architecture
-
-**Purpose:** Showcase of complete software development lifecycle and modern engineering practices
+**Stack:** Python • FastAPI • OpenAI GPT-4 • MCP • Poetry  
+**Features:** Intelligent trip planning, weather integration, REST & CLI interfaces
 
 ---
 
-### GenAI RAG Boilerplate with LangChain & Milvus
-**Production-Ready Retrieval-Augmented Generation System**
+### ShelfScanner
+Full-stack AI book discovery platform showcasing modern DevOps and microservices architecture.
 
-A comprehensive, production-ready boilerplate for building AI-powered document search and question-answering systems. Implements Retrieval-Augmented Generation (RAG) pattern using modern AI frameworks and vector databases.
+🔗 [github.com/nithinmohantk/shelfscanner-ai-app-project](https://github.com/nithinmohantk/shelfscanner-ai-app-project)
 
-🔗 [View Repository](https://github.com/nithinmohantk/genai-boilerplate-milvus-python)
+**Stack:** Docker • Kubernetes • CI/CD • Microservices  
+**Highlights:** Production-ready patterns, automated deployment, type safety, comprehensive testing
 
-**Key Features:**
-- **RAG Architecture** - Complete retrieval-augmented generation implementation
-- **Vector Database** - Milvus for efficient similarity search
-- **LangChain Integration** - Advanced AI orchestration and chaining
-- **FastAPI Backend** - High-performance REST API
-- **Document Processing** - Intelligent document ingestion and indexing
-- **Semantic Search** - Context-aware information retrieval
+---
 
-**Capabilities:**
-- Document embedding and vectorization
-- Semantic similarity search
-- Context-aware question answering
-- Multi-document retrieval
-- Scalable vector storage
-- Real-time AI responses
+### GenAI RAG Boilerplate (Python + Milvus)
+Production-ready RAG system for building intelligent document search and Q&A applications.
 
-**Technologies:**
-- Python 3.x
+🔗 [github.com/nithinmohantk/genai-boilerplate-milvus-python](https://github.com/nithinmohantk/genai-boilerplate-milvus-python)
+
+**Stack:** Python • FastAPI • LangChain • Milvus • OpenAI  
+**Features:** Vector embeddings, semantic search, context-aware Q&A
 - FastAPI
 - LangChain
 - Milvus Vector Database
@@ -165,154 +100,55 @@ A comprehensive, production-ready GenAI chatbot platform built with modern Pytho
 
 ---
 
-### GenAI Chatbot Boilerplate (.NET)
-**Enterprise-Grade AI Chatbot with Multi-Tenant Architecture**
+### GenAI Chatbot Platform (Python)
+Multi-tenant chatbot with real-time chat, document processing, and RAG capabilities.
 
-A production-ready .NET implementation of an AI-powered chatbot platform featuring enterprise-grade architecture, authentication, and multi-tenancy support. Built with modern .NET practices and integrates seamlessly with OpenAI API.
+🔗 [github.com/nithinmohantk/genai-boilerplate-python](https://github.com/nithinmohantk/genai-boilerplate-python)
 
-🔗 [View Repository](https://github.com/nithinmohantk/genai-boilerplate-dotnet)
-
-**Key Features:**
-- **ASP.NET Core Web API** - High-performance backend services
-- **React Frontend** - Modern, responsive user interface
-- **Multi-Tenant Architecture** - Isolated data and configuration per tenant
-- **JWT Authentication** - Secure token-based authentication
-- **PostgreSQL Integration** - Robust relational database
-- **Redis Caching** - High-performance distributed caching
-- **OpenAI API Integration** - Advanced AI chat capabilities
-
-**Architecture Highlights:**
-- Clean architecture principles
-- Dependency injection patterns
-- Repository and unit of work patterns
-- CQRS design patterns
-- API versioning and documentation
-- Comprehensive error handling
-
-**Technologies:**
-- .NET Core / .NET 6+
-- ASP.NET Core Web API
-- React.js
-- PostgreSQL
-- Redis
-- OpenAI API
-- Entity Framework Core
-- JWT Authentication
-
-**Use Cases:**
-- Enterprise chatbot platforms
-- Multi-tenant SaaS applications
-- Customer support automation
-- AI-powered virtual assistants
+**Stack:** Python • FastAPI • React • PostgreSQL • WebSocket • OpenAI  
+**Features:** Multi-tenancy, real-time chat, document processing, admin dashboard
 
 ---
 
-### .NET Core REST API & GraphQL Starter
-**Modern API Development with REST & GraphQL**
+### GenAI Chatbot Platform (.NET)
+Enterprise chatbot with multi-tenant architecture and comprehensive auth.
 
-A comprehensive starter template demonstrating modern API development patterns in .NET Core, supporting both RESTful and GraphQL endpoints. Ideal foundation for building scalable, maintainable web services.
+🔗 [github.com/nithinmohantk/genai-boilerplate-dotnet](https://github.com/nithinmohantk/genai-boilerplate-dotnet)
 
-🔗 [View Repository](https://github.com/nithinmohantk/DotnetCore-RestAPI-GraphQL-Starter-Sample)
-
-**Key Features:**
-- **Dual API Support** - Both REST and GraphQL endpoints
-- **Modern .NET Core** - Latest framework features and patterns
-- **Clean Architecture** - Separation of concerns and maintainability
-- **API Documentation** - Swagger/OpenAPI integration
-- **GraphQL Schema** - Strongly-typed GraphQL implementation
-- **Starter Template** - Ready-to-use project foundation
-
-**Capabilities:**
-- RESTful API endpoints with proper HTTP semantics
-- GraphQL queries and mutations
-- API versioning strategies
-- Input validation and error handling
-- Logging and monitoring setup
-- Database integration patterns
-
-**Technologies:**
-- .NET Core
-- ASP.NET Core Web API
-- GraphQL (HotChocolate)
-- Swagger/OpenAPI
-- Entity Framework Core
-- Dependency Injection
-
-**Use Cases:**
-- Starting new API projects
-- Learning REST and GraphQL patterns
-- Microservices foundations
-- Backend service templates
+**Stack:** .NET Core • ASP.NET • React • PostgreSQL • Redis • OpenAI  
+**Features:** JWT auth, multi-tenancy, clean architecture, CQRS patterns
 
 ---
 
-## 🏥 Healthcare Technology
+### .NET REST API & GraphQL Starter
+Starter template supporting both REST and GraphQL with modern .NET patterns.
 
-### POC 1: Healthcare Interoperability Platform (.NET Microservices)
-**Multi-Standard Healthcare Data Exchange Solution**
+🔗 [github.com/nithinmohantk/DotnetCore-RestAPI-GraphQL-Starter-Sample](https://github.com/nithinmohantk/DotnetCore-RestAPI-GraphQL-Starter-Sample)
 
-A comprehensive .NET-based platform demonstrating healthcare interoperability across multiple industry standards. This conceptual platform showcases enterprise-grade architecture for healthcare data exchange.
-
-🔗 [View Repository](https://github.com/nithinmohantk/dotnet-healthcare-fhir-microservices-concept)
-
-**Standards Supported:**
-- **FHIR (Fast Healthcare Interoperability Resources)** - Modern RESTful API standard for healthcare data exchange
-- **HL7v2.x** - Traditional message-based standard for clinical and administrative data
-- **HL7v3** - XML-based messaging standard for healthcare information exchange
-
-**Domain Focus:** Patient Data Management & Interoperability
-
-**Key Features:**
-- Multi-standard healthcare data transformation
-- RESTful API endpoints for FHIR resources
-- Legacy system integration (HL7v2.x)
-- Enterprise-grade microservices architecture
-- Scalable and extensible design patterns
-
-**Technologies:**
-- .NET Core / .NET 6+
-- Microservices Architecture
-- Healthcare Interoperability Standards
-- RESTful API Design
-- Enterprise Integration Patterns
-- Docker & Containerization
-
-**Use Cases:**
-- Hospital system integration
-- Patient data exchange between healthcare providers
-- Legacy system modernization
-- Healthcare API gateway implementation
+**Stack:** .NET Core • GraphQL (HotChocolate) • Swagger • EF Core  
+**Features:** Dual API support, clean architecture, comprehensive documentation
 
 ---
 
-### POC 2: Healthcare Fraud Detection Using Graph Analysis & AI
-**ML-Powered Fraud Detection for Irish Healthcare Domain**
+## 🏥 Healthcare IT
 
-An innovative machine learning project developed as part of the UCD Professional Academy - Data Analytics: Machine Learning Certificate curriculum. Leverages graph analysis and advanced ML techniques to detect fraudulent patterns in healthcare claims data.
+### Healthcare Interoperability Platform
+.NET microservices platform supporting FHIR, HL7v2.x, and HL7v3 standards for patient data exchange.
 
-🔗 [View Repository](https://github.com/nithinmohantk/ucdpa-ml-capstone-project-healthcare-fraud-detection-ireland)
+🔗 [github.com/nithinmohantk/dotnet-healthcare-fhir-microservices-concept](https://github.com/nithinmohantk/dotnet-healthcare-fhir-microservices-concept)
 
-**Key Features:**
-- **Graph-Based Analysis** - Relationship mapping between patients, providers, and claims
-- **Machine Learning Models** - Advanced fraud detection algorithms
-- **Synthetic Data Generation** - Realistic Irish healthcare data using Synthea
-- **Pattern Recognition** - Identifying anomalous claim patterns and networks
-- **Visual Analytics** - Interactive fraud detection dashboards
+**Stack:** .NET Core • FHIR • HL7 • Microservices • Docker  
+**Use Case:** Hospital system integration, legacy modernization
 
-**Technical Approach:**
-- Graph database modeling for healthcare relationships
-- Feature engineering for fraud indicators
-- Supervised and unsupervised learning techniques
-- Network analysis for collusion detection
-- Statistical anomaly detection
+---
 
-**Technologies:**
-- Python 3.x
-- Scikit-learn, Pandas, NumPy
-- Graph Analysis Libraries (NetworkX)
-- Synthea (Synthetic Patient Generator)
-- Data Visualization (Matplotlib, Seaborn)
-- Jupyter Notebooks
+### Healthcare Fraud Detection (ML Capstone)
+Graph analysis + ML for detecting fraud in Irish healthcare claims. UCD Professional Academy capstone project.
+
+🔗 [github.com/nithinmohantk/ucdpa-ml-capstone-project-healthcare-fraud-detection-ireland](https://github.com/nithinmohantk/ucdpa-ml-capstone-project-healthcare-fraud-detection-ireland)
+
+**Stack:** Python • Scikit-learn • NetworkX • Synthea • Jupyter  
+**Approach:** Graph modeling, feature engineering, anomaly detection
 
 **Academic Context:** UCD Professional Academy - Data Analytics: Machine Learning Certificate (Capstone Project)
 
@@ -411,63 +247,33 @@ A Python-based demonstration project for health claim analysis, featuring an int
 
 ### Data Engineering & Analytics
 - ETL pipelines
-- Graph databases and analysis
-- Statistical modeling
-- Data visualization
-- Synthetic data generation
-- Semantic search
 
 ---
 
-## 📚 Academic & Professional Development
+### Health Claim Analytics Hub
+Interactive analytics dashboard for healthcare claims with Streamlit.
 
-These projects represent continuous learning and professional development:
+🔗 [github.com/nithinmohantk/python-health-claim-analytic-hub-demo](https://github.com/nithinmohantk/python-health-claim-analytic-hub-demo)
 
-- **UCD Professional Academy** - Data Analytics: Machine Learning Certificate
-- **Healthcare Interoperability** - Industry standard implementations
-- **Modern AI Integration** - Cutting-edge AI/ML technologies
-- **Architectural Patterns** - Enterprise-grade design patterns
-
----
-
-## 🔄 Project Status
-
-All projects are:
-- ✅ Functional proof-of-concepts or demonstrations
-- ✅ Available for review and exploration
-- ✅ Documented with README files
-- ✅ Showcase real-world applicable patterns
+**Stack:** Python • Streamlit • Pandas • API Integration  
+**Features:** Real-time dashboards, claim analytics, visualization suite
 
 ---
 
-## 📬 Collaboration & Inquiries
+## 🎓 Background
 
-Interested in discussing these projects or exploring collaboration opportunities?
-
-- **GitHub Issues** - Open an issue in the specific project repository
-- **Main Profile** - [@nithinmohantk](https://github.com/nithinmohantk)
-- **This Repository** - [artifacts](https://github.com/nithinmohantk/artifacts)
-
-I'm open to:
-- Technical discussions about implementations
-- Collaboration on similar healthcare IT projects
-- AI/ML integration consultations
-- Architecture and design pattern discussions
+**Education:** UCD Professional Academy - Data Analytics: Machine Learning Certificate  
+**Focus Areas:** AI/ML, Healthcare IT, Enterprise Architecture, Cloud-Native Development
 
 ---
 
-## 📄 License
+## 💬 Let's Connect
 
-These projects are subject to individual repository licenses. Please refer to each project's repository for specific license information.
-
-**Copyright © 2025 Nithin Mohan TK**
+Questions or collaboration ideas? Reach out:
+- Open an issue in any project repo
+- Main profile: [@nithinmohantk](https://github.com/nithinmohantk)
+- This repository: [artifacts](https://github.com/nithinmohantk/artifacts)
 
 ---
 
-<div align="center">
-
-**⭐ If you find these projects interesting, please consider starring the repositories!**
-
-[← Back to Main Repository](README.md)
-
-</div>
+[← Back to Main](README.md) • Copyright © 2025 Nithin Mohan TK
