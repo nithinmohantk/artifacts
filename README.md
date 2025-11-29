@@ -29,6 +29,7 @@ Explore technical implementations showcasing AI integration, healthcare IT, and 
 **Featured Projects:**
 - **ShelfScanner** - Complete AI book discovery platform with CI/CD & microservices
 - **TravelSmart App** - AI-powered travel booking with MCP & OpenAI GPT-4
+- **GenAI Chatbot (Python)** - Multi-tenant platform with real-time chat & RAG
 - **GenAI RAG Boilerplate** - Production-ready RAG system with LangChain & Milvus
 - **GenAI Chatbot (.NET)** - Multi-tenant chatbot with React & OpenAI integration
 - **Healthcare Interoperability Platform** - Multi-standard (FHIR, HL7) .NET solution

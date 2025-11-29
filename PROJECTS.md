@@ -112,6 +112,59 @@ A comprehensive, production-ready boilerplate for building AI-powered document s
 
 ---
 
+### GenAI Chatbot Boilerplate (Python)
+**Production-Ready Multi-Tenant AI Chatbot Platform**
+
+A comprehensive, production-ready GenAI chatbot platform built with modern Python frameworks. Features real-time chat capabilities, document processing, RAG integration, and complete administrative management for multi-tenant deployments.
+
+🔗 [View Repository](https://github.com/nithinmohantk/genai-boilerplate-python)
+
+**Key Features:**
+- **Multi-Tenant Architecture** - Complete tenant isolation and management
+- **Real-Time Chat** - WebSocket-based live chat capabilities
+- **Document Processing** - Advanced document ingestion and analysis
+- **RAG Capabilities** - Retrieval-augmented generation for contextual responses
+- **Admin Management** - Comprehensive dashboard for system administration
+- **FastAPI Backend** - High-performance, modern Python framework
+- **React Frontend** - Responsive, interactive user interface
+- **PostgreSQL Database** - Robust relational data storage
+
+**Architecture Highlights:**
+- Production-ready design patterns
+- Scalable microservices approach
+- Secure authentication and authorization
+- Real-time communication infrastructure
+- Document vectorization and embedding
+- API-first architecture
+
+**Capabilities:**
+- Multi-tenant user management
+- Real-time chat with AI responses
+- Document upload and processing
+- Context-aware conversations
+- Admin monitoring and analytics
+- User role and permission management
+- API documentation and testing
+
+**Technologies:**
+- Python 3.x
+- FastAPI
+- React.js
+- PostgreSQL
+- WebSocket (real-time communication)
+- OpenAI API
+- LangChain (for RAG)
+- Vector database integration
+
+**Use Cases:**
+- SaaS chatbot platforms
+- Enterprise customer support
+- Multi-tenant AI assistants
+- Document-based Q&A systems
+- Internal knowledge management
+
+---
+
 ### GenAI Chatbot Boilerplate (.NET)
 **Enterprise-Grade AI Chatbot with Multi-Tenant Architecture**
 
