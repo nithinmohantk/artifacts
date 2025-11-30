@@ -34,33 +34,72 @@ A comprehensive solution for healthcare data management and analytics, focusing 
 ### NovaRetail E-Commerce Transformation
 **Digital Commerce Platform Modernization**
 
-Complete transformation strategy for a retail organization transitioning to modern e-commerce platforms and digital customer experiences.
+Complete transformation strategy for a retail organization transitioning to modern e-commerce platforms and digital customer experiences, including comprehensive architecture diagrams and modernization roadmap.
 
-📄 [View Case Study](NovaRetail_E-Commerce_Transformation.pdf)
+**Documentation:**
+
+📄 **Transformation Case Study**  
+[NovaRetail_E-Commerce_Transformation.pdf](NovaRetail_E-Commerce_Transformation.pdf)  
+Complete digital transformation strategy and implementation plan
+
+📄 **Enterprise Architecture Plan**  
+[NovaRetail Enterprise Architecture Modernization Plan.pdf](NovaRetail%20Enterprise%20Architecture%20Modernization%20Plan.pdf)  
+Detailed architecture modernization strategy and technical roadmap
+
+📊 **Architecture Diagrams**  
+[NovaRetail-Complete-Architecture-Updated.drawio](NovaRetail-Complete-Architecture-Updated.drawio) | [PDF Version](NovaRetail-Complete-Architecture-v0.1-Diagrams.pdf)  
+Interactive draw.io diagrams showing complete system architecture with C4 model views
 
 **Key Areas:**
-- E-commerce platform architecture
-- Digital transformation strategy
-- Customer experience optimization
+- E-commerce platform architecture (microservices, cloud-native)
+- Digital transformation strategy and change management
+- Customer experience optimization and personalization
 - Omnichannel retail solutions
+- System integration and API design
+- DevOps and cloud infrastructure
+- Security and compliance frameworks
 
 ---
 
 ## 📊 Procurement & Vendor Management
 
 ### Vendor RFQ Evaluation Framework
-**Comprehensive Scoring & Assessment Checklist**
+**Comprehensive Healthcare IT Vendor Selection Process**
 
-A structured framework for evaluating vendor proposals through Request for Quotation (RFQ) processes, providing systematic scoring mechanisms and decision support.
+A complete, enterprise-grade framework for evaluating healthcare IT vendors through a structured 6-phase process. Includes weighted scoring matrices, decision gates, demo evaluation templates, reference check guides, and BAFO negotiation tools.
 
-📄 [View Framework](Vendor%20RFQ%20Evaluation%20Checklist%20-%20Scoring%20Framework.pdf)
+**Framework Components:**
+
+📊 **Interactive Workbook**  
+[Vendor_RFQ_Evaluation_Process_Comprehensive.xlsx](Vendor_RFQ_Evaluation_Process_Comprehensive.xlsx)  
+11-worksheet Excel file with automated scoring, sample vendors, Build vs Buy vs Rent analysis, complexity assessment, and SWOT analysis
+
+📄 **Scoring Methodology**  
+[Vendor RFQ Evaluation Checklist - Scoring Framework.pdf](Vendor%20RFQ%20Evaluation%20Checklist%20-%20Scoring%20Framework.pdf)  
+Detailed framework document explaining evaluation criteria and scoring approach
+
+📈 **Process Flow Diagram**  
+[VENDOR_EVALUATION_PROCESS_FLOW.drawio](VENDOR_EVALUATION_PROCESS_FLOW.drawio) | [PDF Version](VENDOR_EVALUATION_PROCESS_FLOW.drawio.pdf)  
+Professional, color-coded draw.io diagram showing complete end-to-end process with decision gates and timeline
+
+**Key Features:**
+- **6-Phase Process**: Initial Screening → Detailed Evaluation → Synthesis → Deep Validation → Final Decision → Approval & Contracting
+- **Weighted Scoring**: 52 criteria across 5 categories (Functional 35%, Technical 30%, Security 20%, Viability 10%, Commercial 5%)
+- **Decision Gates**: Built-in GO/NO-GO checkpoints at critical stages
+- **3 Sample Vendors**: Mirth Connect (Open Source), InterSystems HealthShare (Enterprise), Rhapsody Integration (Mid-Market)
+- **Strategic Analysis**: Build vs Buy vs Rent comparison, 5-year TCO modeling, complexity assessment (125-point scale)
+- **Demo Evaluation**: Structured templates for live technical demonstrations
+- **Reference Checks**: Question templates and scoring guides
+- **BAFO Process**: Best and Final Offer negotiation framework
+- **Complete Documentation**: Process flows, user guides, and quick reference materials
 
 **Key Areas:**
-- Vendor assessment criteria
-- Scoring methodologies
-- Risk evaluation frameworks
-- Decision-making processes
-- Procurement best practices
+- Healthcare IT vendor assessment
+- Weighted scoring methodologies (corrected formulas out of 100 points)
+- Risk evaluation and complexity analysis
+- Multi-stakeholder decision-making processes
+- Contract negotiation and SLA development
+- Implementation planning and timeline management
 
 ---
 
@@ -103,4 +142,4 @@ These case studies represent real-world challenges and solutions. For detailed d
 
 ---
 
-*Last Updated: November 2025*
+*Last Updated: November 30, 2025*
