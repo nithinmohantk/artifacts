@@ -1,0 +1,1456 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.0.3 Chrome/140.0.7339.249 Electron/38.7.0 Safari/537.36" version="29.0.3" pages="14">
+  <diagram id="C0_Business_Context" name="C0 - Business Context">
+    <mxGraphModel dx="1426" dy="961" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="central" value="NovaRetail Unified Commerce Platform&#xa;(Target Business Capability)&#xa;• Single brand experience&#xa;• Shared services &amp; data&#xa;• Built on .NET 10 + Azure/AWS" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#0B4A7A;fillColor=#1168BD;fontColor=#FFFFFF;fontSize=16;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="550" y="360" width="360" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="customer" value="Global Customers&#xa;(B2C, Loyalty Members)" style="shape=person;whiteSpace=wrap;html=1;strokeColor=#052E56;fillColor=#08427B;fontColor=#FFFFFF;fontSize=14;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="200" y="120" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="storeAssociates" value="Store &amp; Contact Center Associates&#xa;• Customer support&#xa;• Assisted sales" style="shape=person;whiteSpace=wrap;html=1;strokeColor=#052E56;fillColor=#08427B;fontColor=#FFFFFF;fontSize=14;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="520" y="80" width="260" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="partners" value="Partner Marketplaces &amp; Affiliates&#xa;• B2B order feeds&#xa;• Drop-ship programs" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#666666;fillColor=#999999;fontColor=#FFFFFF;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="880" y="130" width="230" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="leadership" value="NovaRetail Executive Leadership&#xa;• Strategy &amp; KPIs&#xa;• Funding &amp; governance" style="shape=person;whiteSpace=wrap;html=1;strokeColor=#052E56;fillColor=#08427B;fontColor=#FFFFFF;fontSize=14;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="120" y="360" width="230" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="countryOps" value="Country Operations Teams&#xa;• Localization&#xa;• Regulatory compliance" style="shape=person;whiteSpace=wrap;html=1;strokeColor=#052E56;fillColor=#08427B;fontColor=#FFFFFF;fontSize=14;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="260" y="600" width="240" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="logistics" value="3PL &amp; Logistics Partners&#xa;• DHL/UPS/FedEx&#xa;• Last-mile carriers" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#666666;fillColor=#999999;fontColor=#FFFFFF;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="610" y="620" width="240" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="payments" value="Payment Networks &amp; PSPs&#xa;• Visa/Mastercard&#xa;• Local payment rails" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#666666;fillColor=#999999;fontColor=#FFFFFF;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="930" y="600" width="240" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="regulators" value="Regulators &amp; Data Protection Authorities&#xa;• GDPR, PCI-DSS&#xa;• Local residency mandates" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#666666;fillColor=#999999;fontColor=#FFFFFF;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="1040" y="360" width="260" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="edge1" style="endArrow=block;html=1;strokeColor=#444444;" parent="1" source="customer" target="central" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge2" style="endArrow=block;html=1;strokeColor=#444444;" parent="1" source="storeAssociates" target="central" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge3" style="endArrow=block;html=1;strokeColor=#444444;" parent="1" source="partners" target="central" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge4" style="endArrow=open;html=1;strokeColor=#444444;dashed=1;" parent="1" source="leadership" target="central" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge5" style="endArrow=block;html=1;strokeColor=#444444;" parent="1" source="countryOps" target="central" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge6" style="endArrow=block;html=1;strokeColor=#444444;" parent="1" source="logistics" target="central" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge7" style="endArrow=block;html=1;strokeColor=#444444;" parent="1" source="payments" target="central" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge8" style="endArrow=open;html=1;strokeColor=#444444;dashed=1;" parent="1" source="regulators" target="central" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="diagram_title" value="C0 - Business Context&#xa;Version: 1.0 | Creator: Nithin Mohan T K | Date: 2025-11-22" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#E1F5FE;fontColor=#000000;fontSize=16;fontStyle=1;align=left;verticalAlign=top;spacingLeft=10;spacingTop=5;" parent="1" vertex="1">
+          <mxGeometry x="20" y="20" width="470" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="diagram_legend" value="&lt;b&gt;Color Legend:&lt;/b&gt;&lt;br/&gt;&#xa;• &lt;span style=&quot;background-color:#08427B;color:#FFFFFF;padding:2px 5px;&quot;&gt;Blue&lt;/span&gt; = People/Actors&lt;br/&gt;&#xa;• &lt;span style=&quot;background-color:#1168BD;color:#FFFFFF;padding:2px 5px;&quot;&gt;Dark Blue&lt;/span&gt; = NovaRetail Systems&lt;br/&gt;&#xa;• &lt;span style=&quot;background-color:#999999;color:#FFFFFF;padding:2px 5px;&quot;&gt;Grey&lt;/span&gt; = External Systems&lt;br/&gt;&#xa;• &lt;span style=&quot;background-color:#85BBF0;color:#000000;padding:2px 5px;&quot;&gt;Light Blue&lt;/span&gt; = Data/Event Platforms" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#FFFFFF;fontColor=#000000;fontSize=12;align=left;verticalAlign=top;spacingLeft=10;spacingTop=5;" parent="1" vertex="1">
+          <mxGeometry x="20" y="780" width="400" height="160" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="C1_System_Context_Current" name="C1 - Current System Context">
+    <mxGraphModel dx="1426" dy="961" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="customers" value="Customers &amp; Channels&#xa;• Web browsers&#xa;• Mobile apps&#xa;• Partner portals" style="shape=person;whiteSpace=wrap;html=1;strokeColor=#052E56;fillColor=#08427B;fontColor=#FFFFFF;fontSize=14;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="640" y="60" width="260" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="countryCluster" value="Country-Specific Commerce Platforms&lt;div&gt;&lt;br&gt;Monoliths per market (Java, PHP, .NET, Node.js)&lt;/div&gt;" style="swimlane;rounded=1;whiteSpace=wrap;html=1;strokeColor=#666666;fillColor=#BBBBBB;fontColor=#000000;fontSize=14;startSize=23;" parent="1" vertex="1">
+          <mxGeometry x="380" y="220" width="810" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="country1" value="Country 1&#xa;Java monolith" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#666666;fillColor=#999999;fontColor=#FFFFFF;" parent="countryCluster" vertex="1">
+          <mxGeometry x="35" y="90" width="170" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="country2" value="Country 2&#xa;.NET Framework" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#666666;fillColor=#999999;fontColor=#FFFFFF;" parent="countryCluster" vertex="1">
+          <mxGeometry x="225" y="90" width="170" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="country3" value="Country 3&#xa;PHP monolith" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#666666;fillColor=#999999;fontColor=#FFFFFF;" parent="countryCluster" vertex="1">
+          <mxGeometry x="415" y="90" width="170" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="country4" value="Countries 4-12&#xa;Mixed stacks" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#666666;fillColor=#999999;fontColor=#FFFFFF;" parent="countryCluster" vertex="1">
+          <mxGeometry x="605" y="90" width="170" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="customerDB" value="8 Customer Databases&#xa;Isolated schemas&#xa;No master record" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#666666;fillColor=#BBBBBB;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="220" y="520" width="220" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="productExcel" value="Product Data&#xa;Spreadsheets &amp; manual uploads" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#666666;fillColor=#BBBBBB;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="520" y="520" width="220" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="batch" value="Shared Batch Services&#xa;• Order consolidation (nightly)&#xa;• Payment reconciliation" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#666666;fillColor=#999999;fontColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="820" y="520" width="260" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="infra" value="Legacy Infrastructure&#xa;• On-prem servers&#xa;• AWS + Azure (non-standard)&#xa;• Manual deployments" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#666666;fillColor=#BBBBBB;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="540" y="710" width="320" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="integrations" value="Point-to-Point Integrations&#xa;Tightly coupled REST/SOAP calls" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#666666;fillColor=#999999;fontColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="1280" y="310" width="240" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="edgeA" style="endArrow=block;strokeColor=#444444;" parent="1" source="customers" target="countryCluster" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edgeB" style="endArrow=block;strokeColor=#444444;" parent="1" source="countryCluster" target="customerDB" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edgeC" style="endArrow=block;strokeColor=#444444;" parent="1" source="countryCluster" target="productExcel" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edgeD" style="endArrow=block;strokeColor=#444444;" parent="1" source="countryCluster" target="batch" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edgeE" style="endArrow=open;strokeColor=#444444;dashed=1;" parent="1" source="countryCluster" target="integrations" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edgeF" style="endArrow=block;strokeColor=#444444;" parent="1" source="batch" target="infra" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="legend" value="Pain Points&#xa;1. No unified identity&#xa;2. Manual product ops&#xa;3. Batch latency&#xa;4. High ops cost" style="rounded=0;shadow=0;html=1;strokeColor=#000000;fillColor=#FFFFFF;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="20" y="80" width="220" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="diagram_title" value="C1 - Current System Context&#xa;Version: 1.0 | Creator: Nithin Mohan T K | Date: 2025-11-22" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#E1F5FE;fontColor=#000000;fontSize=16;fontStyle=1;align=left;verticalAlign=top;spacingLeft=10;spacingTop=5;" parent="1" vertex="1">
+          <mxGeometry x="20" y="10" width="600" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="diagram_legend" value="&lt;b&gt;Color Legend:&lt;/b&gt;&lt;br/&gt;&#xa;• &lt;span style=&quot;background-color:#08427B;color:#FFFFFF;padding:2px 5px;&quot;&gt;Blue&lt;/span&gt; = People/Actors&lt;br/&gt;&#xa;• &lt;span style=&quot;background-color:#1168BD;color:#FFFFFF;padding:2px 5px;&quot;&gt;Dark Blue&lt;/span&gt; = NovaRetail Systems&lt;br/&gt;&#xa;• &lt;span style=&quot;background-color:#999999;color:#FFFFFF;padding:2px 5px;&quot;&gt;Grey&lt;/span&gt; = External Systems&lt;br/&gt;&#xa;• &lt;span style=&quot;background-color:#85BBF0;color:#000000;padding:2px 5px;&quot;&gt;Light Blue&lt;/span&gt; = Data/Event Platforms" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#FFFFFF;fontColor=#000000;fontSize=12;align=left;verticalAlign=top;spacingLeft=10;spacingTop=5;" parent="1" vertex="1">
+          <mxGeometry x="40" y="850" width="400" height="150" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="C1_System_Context_Target" name="C1 - Target System Context">
+    <mxGraphModel dx="1426" dy="961" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="customer" value="Customers&#xa;Web / Mobile / PWA" style="shape=person;whiteSpace=wrap;html=1;strokeColor=#052E56;fillColor=#08427B;fontColor=#FFFFFF;fontSize=14;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="180" y="80" width="150" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="store" value="Store &amp; Contact Center Associates" style="shape=person;whiteSpace=wrap;html=1;strokeColor=#052E56;fillColor=#08427B;fontColor=#FFFFFF;fontSize=14;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="370" y="80" width="220" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="partner" value="Partner Channels&#xa;Marketplaces, B2B APIs" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#666666;fillColor=#999999;fontColor=#FFFFFF;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="640" y="80" width="220" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="platform" value="NovaRetail OmniCommerce Platform&#xa;.NET 10 Microservices on AWS + Azure DR&#xa;Event-driven, API-first" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#0B4A7A;fillColor=#1168BD;fontColor=#FFFFFF;fontSize=16;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="130" y="840" width="960" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="experience" value="Experience Layer&#xa;• Web (Next.js)&#xa;• Mobile (React Native)&#xa;• BFF (ASP.NET Core)" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#2C6FA3;fillColor=#438DD5;fontColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="220" y="250" width="220" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="apiGateway" value="API Gateway &amp; Service Mesh&#xa;• Azure API Management / YARP&#xa;• OAuth2/OIDC&#xa;• Rate limiting" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#2C6FA3;fillColor=#438DD5;fontColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="220" y="420" width="220" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="domainServices" value="Domain Microservices&#xa;• Customer Identity&#xa;• Product Catalog&#xa;• Order, Inventory, Fulfillment&#xa;• Payment, Promotion&#xa;Tech: .NET 10 (ASP.NET Core), DDD" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#2C6FA3;fillColor=#438DD5;fontColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="500" y="420" width="320" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="eventHub" value="Event Streaming Platform&#xa;Kafka / EventBridge&#xa;Saga orchestration" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#2C6FA3;fillColor=#85BBF0;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="870" y="420" width="220" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="data" value="Data Plane&#xa;• PostgreSQL (RDS)&#xa;• MongoDB Atlas&#xa;• Redis / Elastic&#xa;• Data Lake (S3 + Synapse)" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#2C6FA3;fillColor=#85BBF0;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="520" y="640" width="280" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="enterprise" value="Enterprise Systems&#xa;• ERP / Finance&#xa;• HR / CRM&#xa;• BI &amp; Analytics" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#666666;fillColor=#999999;fontColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="870" y="240" width="220" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="logistics" value="Logistics &amp; 3PL APIs" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#666666;fillColor=#999999;fontColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="1170" y="445" width="200" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="payments" value="Payment Providers / PSPs" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#666666;fillColor=#999999;fontColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="870" y="585" width="220" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="edge1" style="endArrow=block;strokeColor=#333333;" parent="1" source="customer" target="experience" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge2" style="endArrow=block;strokeColor=#333333;" parent="1" source="experience" target="apiGateway" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge3" style="endArrow=block;strokeColor=#333333;" parent="1" source="apiGateway" target="domainServices" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge4" style="endArrow=block;strokeColor=#333333;" parent="1" source="domainServices" target="eventHub" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge5" style="endArrow=block;strokeColor=#333333;" parent="1" source="domainServices" target="data" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge6" style="endArrow=block;strokeColor=#333333;" parent="1" source="partner" target="apiGateway" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge7" style="endArrow=block;strokeColor=#333333;" parent="1" source="store" target="experience" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge8" style="endArrow=block;strokeColor=#333333;" parent="1" source="enterprise" target="domainServices" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge9" style="endArrow=block;strokeColor=#333333;" parent="1" source="logistics" target="eventHub" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge10" style="endArrow=block;strokeColor=#333333;" parent="1" source="payments" target="domainServices" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="legend" value="Principles&#xa;• API-first&#xa;• Event-driven&#xa;• Cloud-native&#xa;• .NET standardization" style="rounded=0;html=1;strokeColor=#000000;fillColor=#FFFFFF;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="1150" y="75" width="220" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="diagram_title" value="C1 - Target System Context&#xa;Version: 1.0 | Creator: Nithin Mohan T K | Date: 2025-11-22" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#E1F5FE;fontColor=#000000;fontSize=16;fontStyle=1;align=left;verticalAlign=top;spacingLeft=10;spacingTop=5;" parent="1" vertex="1">
+          <mxGeometry x="20" y="20" width="600" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="diagram_legend" value="&lt;b&gt;Color Legend:&lt;/b&gt;&lt;br/&gt;&#xa;• &lt;span style=&quot;background-color:#08427B;color:#FFFFFF;padding:2px 5px;&quot;&gt;Blue&lt;/span&gt; = People/Actors&lt;br/&gt;&#xa;• &lt;span style=&quot;background-color:#1168BD;color:#FFFFFF;padding:2px 5px;&quot;&gt;Dark Blue&lt;/span&gt; = NovaRetail Systems&lt;br/&gt;&#xa;• &lt;span style=&quot;background-color:#999999;color:#FFFFFF;padding:2px 5px;&quot;&gt;Grey&lt;/span&gt; = External Systems&lt;br/&gt;&#xa;• &lt;span style=&quot;background-color:#85BBF0;color:#000000;padding:2px 5px;&quot;&gt;Light Blue&lt;/span&gt; = Data/Event Platforms" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#FFFFFF;fontColor=#000000;fontSize=12;align=left;verticalAlign=top;spacingLeft=10;spacingTop=5;" parent="1" vertex="1">
+          <mxGeometry x="1150" y="845" width="400" height="160" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="C2_Logical_View" name="C2 - Logical View">
+    <mxGraphModel dx="1426" dy="961" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2200" pageHeight="1400" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="experience" value="Experience Channels&#xa;• Web (Next.js)&#xa;• Mobile (React Native)&#xa;• Partner APIs / BFF" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#2C6FA3;fillColor=#438DD5;fontColor=#FFFFFF;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="260" y="120" width="420" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="associate" value="Store &amp; Associate Apps" style="shape=person;whiteSpace=wrap;html=1;strokeColor=#052E56;fillColor=#08427B;fontColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="40" y="140" width="180" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="partner" value="Partner / Marketplace Integrations" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#666666;fillColor=#999999;fontColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="720" y="140" width="220" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="api" value="API Gateway &amp; Edge Security&#xa;• Azure API Mgmt + YARP&#xa;• OAuth2/OIDC + WAF&#xa;• Rate limiting / throttling" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#2C6FA3;fillColor=#438DD5;fontColor=#FFFFFF;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="260" y="310" width="420" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="mesh" value="Service Mesh&#xa;• Istio + mTLS&#xa;• Policy enforcement&#xa;• Circuit breaking / retries" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#2C6FA3;fillColor=#438DD5;fontColor=#FFFFFF;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="740" y="310" width="300" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="domainLane" value="Domain Service Layer (.NET 10)" style="swimlane;whiteSpace=wrap;html=1;horizontal=0;rounded=1;strokeColor=#0B4A7A;fillColor=#FFFFFF;fontStyle=1;fontSize=18;" parent="1" vertex="1">
+          <mxGeometry x="160" y="500" width="1380" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="customer" value="Customer Identity&#xa;• Profile &amp; Consent&#xa;• Authentication&#xa;• Loyalty context" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#2C6FA3;fillColor=#438DD5;fontColor=#FFFFFF;" parent="domainLane" vertex="1">
+          <mxGeometry x="40" y="60" width="240" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="product" value="Product Catalog / PIM&#xa;• Rich content&#xa;• Search index feeds&#xa;• Localization" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#2C6FA3;fillColor=#438DD5;fontColor=#FFFFFF;" parent="domainLane" vertex="1">
+          <mxGeometry x="310" y="60" width="240" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="order" value="Order Management&#xa;• Cart &amp; checkout&#xa;• Saga orchestration&#xa;• Order history" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#2C6FA3;fillColor=#438DD5;fontColor=#FFFFFF;" parent="domainLane" vertex="1">
+          <mxGeometry x="580" y="60" width="240" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="inventory" value="Inventory &amp; Availability&#xa;• Stock positions&#xa;• Reservations&#xa;• Safety stock" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#2C6FA3;fillColor=#438DD5;fontColor=#FFFFFF;" parent="domainLane" vertex="1">
+          <mxGeometry x="850" y="60" width="240" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="fulfillment" value="Fulfillment &amp; Logistics&#xa;• Shipment orchestration&#xa;• Returns&#xa;• 3PL connectivity" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#2C6FA3;fillColor=#438DD5;fontColor=#FFFFFF;" parent="domainLane" vertex="1">
+          <mxGeometry x="1120" y="60" width="240" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="payment" value="Payments&#xa;• Token vault&#xa;• PSP routing&#xa;• Refunds" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#2C6FA3;fillColor=#438DD5;fontColor=#FFFFFF;" parent="domainLane" vertex="1">
+          <mxGeometry x="40" y="220" width="220" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="promotion" value="Promotion &amp; Pricing&#xa;• Campaign rules&#xa;• Coupons&#xa;• Dynamic pricing" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#2C6FA3;fillColor=#438DD5;fontColor=#FFFFFF;" parent="domainLane" vertex="1">
+          <mxGeometry x="300" y="220" width="220" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="notification" value="Notifications&#xa;• Email/SMS/push&#xa;• Journey orchestration" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#2C6FA3;fillColor=#438DD5;fontColor=#FFFFFF;" parent="domainLane" vertex="1">
+          <mxGeometry x="560" y="220" width="220" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="analytics" value="Analytics &amp; Insights&#xa;• Near real-time KPIs&#xa;• Data products" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#2C6FA3;fillColor=#438DD5;fontColor=#FFFFFF;" parent="domainLane" vertex="1">
+          <mxGeometry x="820" y="220" width="220" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="country" value="Country Adapters&#xa;• Localization rules&#xa;• Compliance overlays" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#2C6FA3;fillColor=#438DD5;fontColor=#FFFFFF;" parent="domainLane" vertex="1">
+          <mxGeometry x="1080" y="220" width="220" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="eventing" value="Event Streaming &amp; Integration&#xa;• Kafka / EventBridge&#xa;• Choreography (sagas)&#xa;• CDC pipelines" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#2C6FA3;fillColor=#85BBF0;fontColor=#000000;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="220" y="900" width="460" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="data" value="Operational Data Stores&#xa;• PostgreSQL (RDS)&#xa;• MongoDB Atlas&#xa;• Redis / DynamoDB" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#2C6FA3;fillColor=#85BBF0;fontColor=#000000;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="760" y="900" width="320" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="datalake" value="Data Lake &amp; AI Platform&#xa;• S3 + Lake Formation&#xa;• Azure Synapse DR&#xa;• Feature store / ML" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#2C6FA3;fillColor=#85BBF0;fontColor=#000000;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="1120" y="900" width="320" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="platform" value="Platform Enablement&#xa;• Kubernetes (EKS)&#xa;• GitHub Actions / Azure DevOps&#xa;• Istio / Observability&#xa;• HashiCorp Vault / Policy as Code" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#2C6FA3;fillColor=#438DD5;fontColor=#FFFFFF;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="220" y="1090" width="640" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="enterprise" value="Enterprise &amp; External Systems&#xa;• ERP / Finance&#xa;• CRM / HR&#xa;• 3PL / PSPs&#xa;• Regulatory reporting" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#666666;fillColor=#999999;fontColor=#FFFFFF;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="920" y="1090" width="360" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="edge1" style="endArrow=block;strokeColor=#333333;" parent="1" source="associate" target="experience" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge2" style="endArrow=block;strokeColor=#333333;" parent="1" source="partner" target="api" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge3" style="endArrow=block;strokeColor=#333333;" parent="1" source="experience" target="api" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge4" style="endArrow=block;strokeColor=#333333;" parent="1" source="api" target="domainLane" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge5" style="endArrow=open;dashed=1;strokeColor=#666666;" parent="1" source="enterprise" target="domainLane" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge6" style="endArrow=block;strokeColor=#333333;" parent="1" source="domainLane" target="eventing" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge7" style="endArrow=block;strokeColor=#333333;" parent="1" source="domainLane" target="data" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge8" style="endArrow=block;strokeColor=#333333;" parent="1" source="data" target="datalake" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge9" style="endArrow=open;dashed=1;strokeColor=#666666;" parent="1" source="platform" target="domainLane" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge10" style="endArrow=open;dashed=1;strokeColor=#666666;" parent="1" source="platform" target="eventing" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge11" style="endArrow=open;dashed=1;strokeColor=#666666;" parent="1" source="platform" target="data" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="diagram_title" value="C2 - Logical View&#xa;Version: 1.0 | Creator: Nithin Mohan T K | Date: 2025-11-22" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#E1F5FE;fontColor=#000000;fontSize=16;fontStyle=1;align=left;verticalAlign=top;spacingLeft=10;spacingTop=5;" parent="1" vertex="1">
+          <mxGeometry x="20" y="20" width="600" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="diagram_legend" value="&lt;b&gt;Color Legend:&lt;/b&gt;&lt;br/&gt;&#xa;• &lt;span style=&quot;background-color:#08427B;color:#FFFFFF;padding:2px 5px;&quot;&gt;Blue&lt;/span&gt; = People/Actors&lt;br/&gt;&#xa;• &lt;span style=&quot;background-color:#1168BD;color:#FFFFFF;padding:2px 5px;&quot;&gt;Dark Blue&lt;/span&gt; = NovaRetail Systems&lt;br/&gt;&#xa;• &lt;span style=&quot;background-color:#999999;color:#FFFFFF;padding:2px 5px;&quot;&gt;Grey&lt;/span&gt; = External Systems&lt;br/&gt;&#xa;• &lt;span style=&quot;background-color:#85BBF0;color:#000000;padding:2px 5px;&quot;&gt;Light Blue&lt;/span&gt; = Data/Event Platforms" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#FFFFFF;fontColor=#000000;fontSize=12;align=left;verticalAlign=top;spacingLeft=10;spacingTop=5;" parent="1" vertex="1">
+          <mxGeometry x="1500" y="1100" width="400" height="160" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="C2_Target_Containers" name="C2 - Target Containers">
+    <mxGraphModel dx="1426" dy="961" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2200" pageHeight="1400" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="experienceLane" value="Experience Layer" style="swimlane;whiteSpace=wrap;html=1;horizontal=0;rounded=1;strokeColor=#0B4A7A;fillColor=#FFFFFF;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="80" y="60" width="1840" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="webApp" value="Web App&#xa;Next.js + Edge Rendering" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#2C6FA3;fillColor=#438DD5;fontColor=#FFFFFF;" parent="experienceLane" vertex="1">
+          <mxGeometry x="60" y="60" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="mobileApp" value="Mobile App&#xa;React Native / MAUI" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#2C6FA3;fillColor=#438DD5;fontColor=#FFFFFF;" parent="experienceLane" vertex="1">
+          <mxGeometry x="300" y="60" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="partnerPortal" value="Partner Integrations&#xa;GraphQL / REST" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#666666;fillColor=#999999;fontColor=#FFFFFF;" parent="experienceLane" vertex="1">
+          <mxGeometry x="540" y="60" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="bff" value="Experience BFF&#xa;ASP.NET Core Minimal APIs&#xa;Edge caching, composition" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#2C6FA3;fillColor=#438DD5;fontColor=#FFFFFF;" parent="experienceLane" vertex="1">
+          <mxGeometry x="780" y="40" width="240" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="apiLane" value="Gateway &amp; Security Layer" style="swimlane;whiteSpace=wrap;html=1;horizontal=0;rounded=1;strokeColor=#0B4A7A;fillColor=#FFFFFF;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="80" y="280" width="1840" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="apiGateway" value="API Gateway&#xa;Azure API Management + YARP&#xa;OAuth2/OIDC, throttling, WAF" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#2C6FA3;fillColor=#438DD5;fontColor=#FFFFFF;" parent="apiLane" vertex="1">
+          <mxGeometry x="420" y="40" width="320" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="mesh" value="Service Mesh&#xa;Istio + mTLS + traffic policies" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#2C6FA3;fillColor=#438DD5;fontColor=#FFFFFF;" parent="apiLane" vertex="1">
+          <mxGeometry x="780" y="40" width="320" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="domainLane" value="Domain Microservices (.NET 10, DDD)" style="swimlane;whiteSpace=wrap;html=1;horizontal=0;rounded=1;strokeColor=#0B4A7A;fillColor=#FFFFFF;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="80" y="460" width="1840" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="customerService" value="Customer Identity Service&#xa;• ASP.NET Core&#xa;• PostgreSQL + Redis&#xa;• Publishes customer.* events" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#2C6FA3;fillColor=#438DD5;fontColor=#FFFFFF;" parent="domainLane" vertex="1">
+          <mxGeometry x="60" y="40" width="260" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="productService" value="Product Catalog Service&#xa;• ASP.NET Core&#xa;• MongoDB (PIM)&#xa;• Search indexing (Elastic)" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#2C6FA3;fillColor=#438DD5;fontColor=#FFFFFF;" parent="domainLane" vertex="1">
+          <mxGeometry x="350" y="40" width="260" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="orderService" value="Order Management Service&#xa;• ASP.NET Core + MassTransit&#xa;• PostgreSQL (event sourced)&#xa;• Saga orchestration" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#2C6FA3;fillColor=#438DD5;fontColor=#FFFFFF;" parent="domainLane" vertex="1">
+          <mxGeometry x="640" y="40" width="260" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="inventoryService" value="Inventory Service&#xa;• ASP.NET Core&#xa;• PostgreSQL + Redis&#xa;• Reserve/commit workflow" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#2C6FA3;fillColor=#438DD5;fontColor=#FFFFFF;" parent="domainLane" vertex="1">
+          <mxGeometry x="930" y="40" width="260" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="fulfillmentService" value="Fulfillment Service&#xa;• ASP.NET Core&#xa;• Carrier APIs integration" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#2C6FA3;fillColor=#438DD5;fontColor=#FFFFFF;" parent="domainLane" vertex="1">
+          <mxGeometry x="1220" y="40" width="260" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="paymentService" value="Payment Service&#xa;• ASP.NET Core&#xa;• PCI segment&#xa;• Token vault" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#2C6FA3;fillColor=#438DD5;fontColor=#FFFFFF;" parent="domainLane" vertex="1">
+          <mxGeometry x="60" y="200" width="240" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="promotionService" value="Promotion &amp; Pricing Service&#xa;• Rules engine&#xa;• Campaign APIs" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#2C6FA3;fillColor=#438DD5;fontColor=#FFFFFF;" parent="domainLane" vertex="1">
+          <mxGeometry x="330" y="200" width="240" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="notificationService" value="Notification Service&#xa;• Event-driven orchestrator&#xa;• Email/SMS/push" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#2C6FA3;fillColor=#438DD5;fontColor=#FFFFFF;" parent="domainLane" vertex="1">
+          <mxGeometry x="600" y="200" width="240" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="analyticsService" value="Analytics &amp; Insights&#xa;• Data Lakehouse feeds&#xa;• Near real-time KPIs" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#2C6FA3;fillColor=#438DD5;fontColor=#FFFFFF;" parent="domainLane" vertex="1">
+          <mxGeometry x="870" y="200" width="240" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="countryAdapters" value="Country Adapters&#xa;• Localization&#xa;• Regulatory variations" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#2C6FA3;fillColor=#438DD5;fontColor=#FFFFFF;" parent="domainLane" vertex="1">
+          <mxGeometry x="1140" y="200" width="240" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="eventLane" value="Eventing &amp; Data" style="swimlane;whiteSpace=wrap;html=1;horizontal=0;rounded=1;strokeColor=#0B4A7A;fillColor=#FFFFFF;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="80" y="800" width="1870" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="eventBus" value="Event Streaming Platform&#xa;Kafka / AWS MSK&#xa;Schema Registry + DLQ" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#2C6FA3;fillColor=#85BBF0;fontColor=#000000;" parent="eventLane" vertex="1">
+          <mxGeometry x="200" y="60" width="280" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="operationalData" value="Operational Data Stores&#xa;• PostgreSQL (RDS)&#xa;• MongoDB Atlas&#xa;• DynamoDB (cart/session)" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#2C6FA3;fillColor=#85BBF0;fontColor=#000000;" parent="eventLane" vertex="1">
+          <mxGeometry x="520" y="40" width="300" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="caching" value="Caching &amp; CDN&#xa;• Redis (ElastiCache)&#xa;• CloudFront" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#2C6FA3;fillColor=#85BBF0;fontColor=#000000;" parent="eventLane" vertex="1">
+          <mxGeometry x="860" y="60" width="220" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="dataLake" value="Data Lake &amp; AI/ML&#xa;• S3 + Lake Formation&#xa;• Azure Synapse DR&#xa;• ML feature store" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#2C6FA3;fillColor=#85BBF0;fontColor=#000000;" parent="eventLane" vertex="1">
+          <mxGeometry x="1110" y="40" width="300" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="platformLane" value="Platform &amp; DevEx" style="swimlane;whiteSpace=wrap;html=1;horizontal=0;rounded=1;strokeColor=#0B4A7A;fillColor=#FFFFFF;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="80" y="1020" width="1840" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="k8s" value="Kubernetes (EKS) + GitOps&#xa;• Flux/Argo CD&#xa;• Blue/green + canary" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#2C6FA3;fillColor=#438DD5;fontColor=#FFFFFF;" parent="platformLane" vertex="1">
+          <mxGeometry x="200" y="40" width="260" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="ciCd" value="CI/CD Platform&#xa;GitHub Actions + Azure DevOps&#xa;Quality gates, SAST/DAST" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#2C6FA3;fillColor=#438DD5;fontColor=#FFFFFF;" parent="platformLane" vertex="1">
+          <mxGeometry x="500" y="40" width="260" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="observability" value="Observability&#xa;• OpenTelemetry&#xa;• Prometheus/Grafana&#xa;• ELK + PagerDuty" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#2C6FA3;fillColor=#438DD5;fontColor=#FFFFFF;" parent="platformLane" vertex="1">
+          <mxGeometry x="800" y="40" width="260" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="security" value="Security &amp; Compliance&#xa;• Zero-trust IAM&#xa;• Secrets Mgmt (HashiCorp Vault)&#xa;• Policy as code" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#2C6FA3;fillColor=#438DD5;fontColor=#FFFFFF;" parent="platformLane" vertex="1">
+          <mxGeometry x="1100" y="40" width="280" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="edgeExpApi" style="endArrow=block;strokeColor=#333333;" parent="1" source="webApp" target="apiGateway" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edgeExpApi2" style="endArrow=block;strokeColor=#333333;" parent="1" source="mobileApp" target="apiGateway" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edgeBffApi" style="endArrow=block;strokeColor=#333333;" parent="1" source="bff" target="apiGateway" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edgeGatewayDomain" style="endArrow=block;strokeColor=#333333;" parent="1" source="apiGateway" target="domainLane" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="580" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edgeDomainEvent" style="endArrow=block;strokeColor=#333333;" parent="1" source="domainLane" target="eventBus" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="840" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edgeDomainData" style="endArrow=block;strokeColor=#333333;" parent="1" source="domainLane" target="operationalData" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="660" y="840" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edgeDomainCache" style="endArrow=block;strokeColor=#333333;" parent="1" source="domainLane" target="caching" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="940" y="840" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edgeEventDataLake" style="endArrow=block;strokeColor=#333333;" parent="1" source="eventBus" target="dataLake" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edgePlatformDomain" style="endArrow=open;dashed=1;strokeColor=#666666;" parent="1" source="platformLane" target="domainLane" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="diagram_title" value="C2 - Target Containers&#xa;Version: 1.0 | Creator: Nithin Mohan T K | Date: 2025-11-22" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#E1F5FE;fontColor=#000000;fontSize=16;fontStyle=1;align=left;verticalAlign=top;spacingLeft=10;spacingTop=5;" parent="1" vertex="1">
+          <mxGeometry x="10" y="3" width="600" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="diagram_legend" value="&lt;b&gt;Color Legend:&lt;/b&gt;&lt;br/&gt;&#xa;• &lt;span style=&quot;background-color:#08427B;color:#FFFFFF;padding:2px 5px;&quot;&gt;Blue&lt;/span&gt; = People/Actors&lt;br/&gt;&#xa;• &lt;span style=&quot;background-color:#1168BD;color:#FFFFFF;padding:2px 5px;&quot;&gt;Dark Blue&lt;/span&gt; = NovaRetail Systems&lt;br/&gt;&#xa;• &lt;span style=&quot;background-color:#999999;color:#FFFFFF;padding:2px 5px;&quot;&gt;Grey&lt;/span&gt; = External Systems&lt;br/&gt;&#xa;• &lt;span style=&quot;background-color:#85BBF0;color:#000000;padding:2px 5px;&quot;&gt;Light Blue&lt;/span&gt; = Data/Event Platforms" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#FFFFFF;fontColor=#000000;fontSize=12;align=left;verticalAlign=top;spacingLeft=10;spacingTop=5;" parent="1" vertex="1">
+          <mxGeometry x="1510" y="1200" width="400" height="160" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="C3_Customer_Identity" name="C3 - Customer Identity Service">
+    <mxGraphModel dx="1426" dy="961" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2200" pageHeight="1400" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="apiLayer" value="Public API Layer&#xa;ASP.NET Core Minimal APIs&#xa;OpenAPI 3 + OAuth2&#xa;Endpoints: /register, /login, /consent" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#2C6FA3;fillColor=#438DD5;fontColor=#FFFFFF;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="360" y="260" width="320" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="bff" value="Experience BFF&#xa;Customer UI &amp; partner APIs" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#2C6FA3;fillColor=#438DD5;fontColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="80" y="280" width="220" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="orchestrator" value="Identity Orchestrator&#xa;ASP.NET Core Worker&#xa;• Validates commands&#xa;• Coordinates workflows" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#2C6FA3;fillColor=#438DD5;fontColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="740" y="220" width="280" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="profileAggregator" value="Profile Aggregator&#xa;• Deduplicate records&#xa;• Merge preferences&#xa;• Identity resolution (ML)" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#2C6FA3;fillColor=#438DD5;fontColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="740" y="380" width="280" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="consent" value="Consent &amp; Compliance Manager&#xa;• GDPR + regional rules&#xa;• Audit logging" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#2C6FA3;fillColor=#438DD5;fontColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="740" y="540" width="280" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="eventPublisher" value="Event Publisher&#xa;MassTransit + Kafka&#xa;customer.registered&#xa;customer.updated" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#2C6FA3;fillColor=#85BBF0;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="1120" y="360" width="240" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="postgres" value="Customer DB&#xa;PostgreSQL (RDS)&#xa;Schema versioned via EF Core Migrations" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#2C6FA3;fillColor=#85BBF0;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="400" y="540" width="260" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="redis" value="Cache Layer&#xa;Redis / ElastiCache&#xa;Session + OTP" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#2C6FA3;fillColor=#85BBF0;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="420" y="130" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="cdc" value="Legacy Data Ingest&#xa;• Fivetran CDC&#xa;• Cleansing pipelines" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#666666;fillColor=#999999;fontColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="80" y="540" width="240" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="externalIdp" value="External Identity Providers&#xa;• Social login&#xa;• Corporate SSO" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#666666;fillColor=#999999;fontColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="1160" y="180" width="220" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="auditing" value="Audit Trail&#xa;Elastic / S3 immutable logs" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#2C6FA3;fillColor=#85BBF0;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="1120" y="540" width="240" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="edge01" style="endArrow=block;strokeColor=#333333;" parent="1" source="bff" target="apiLayer" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge02" style="endArrow=block;strokeColor=#333333;" parent="1" source="apiLayer" target="orchestrator" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge03" style="endArrow=block;strokeColor=#333333;" parent="1" source="orchestrator" target="profileAggregator" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge04" style="endArrow=block;strokeColor=#333333;" parent="1" source="profileAggregator" target="consent" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge05" style="endArrow=block;strokeColor=#333333;" parent="1" source="consent" target="eventPublisher" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge06" style="endArrow=block;strokeColor=#333333;" parent="1" source="profileAggregator" target="postgres" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge07" style="endArrow=block;strokeColor=#333333;" parent="1" source="apiLayer" target="redis" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge08" style="endArrow=block;strokeColor=#333333;" parent="1" source="cdc" target="profileAggregator" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge09" style="endArrow=block;strokeColor=#333333;" parent="1" source="externalIdp" target="orchestrator" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge10" style="endArrow=block;strokeColor=#333333;" parent="1" source="consent" target="auditing" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="legend" value="Quality Attributes&#xa;• Availability 99.9%&#xa;• P95 latency &lt;150ms&#xa;• Geo-fenced data residency" style="rounded=0;strokeColor=#000000;fillColor=#FFFFFF;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="40" y="40" width="240" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="diagram_title" value="C3 - Customer Identity Service&#xa;Version: 1.0 | Creator: Nithin Mohan T K | Date: 2025-11-22" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#E1F5FE;fontColor=#000000;fontSize=16;fontStyle=1;align=left;verticalAlign=top;spacingLeft=10;spacingTop=5;" parent="1" vertex="1">
+          <mxGeometry x="770" y="30" width="600" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="diagram_legend" value="&lt;b&gt;Color Legend:&lt;/b&gt;&lt;br/&gt;&#xa;• &lt;span style=&quot;background-color:#08427B;color:#FFFFFF;padding:2px 5px;&quot;&gt;Blue&lt;/span&gt; = People/Actors&lt;br/&gt;&#xa;• &lt;span style=&quot;background-color:#1168BD;color:#FFFFFF;padding:2px 5px;&quot;&gt;Dark Blue&lt;/span&gt; = NovaRetail Systems&lt;br/&gt;&#xa;• &lt;span style=&quot;background-color:#999999;color:#FFFFFF;padding:2px 5px;&quot;&gt;Grey&lt;/span&gt; = External Systems&lt;br/&gt;&#xa;• &lt;span style=&quot;background-color:#85BBF0;color:#000000;padding:2px 5px;&quot;&gt;Light Blue&lt;/span&gt; = Data/Event Platforms" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#FFFFFF;fontColor=#000000;fontSize=12;align=left;verticalAlign=top;spacingLeft=10;spacingTop=5;" parent="1" vertex="1">
+          <mxGeometry x="960" y="720" width="400" height="150" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="C3_Order_Saga" name="C3 - Order Saga Flow">
+    <mxGraphModel dx="1426" dy="961" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2200" pageHeight="1400" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="customer" value="Customer UI / BFF&#xa;(.NET BFF)" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#2C6FA3;fillColor=#438DD5;fontColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="120" y="160" width="180" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="apiGateway" value="API Gateway&#xa;Azure API Mgt" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#2C6FA3;fillColor=#438DD5;fontColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="340" y="160" width="180" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="orderApi" value="Order Service API&#xa;ASP.NET Core&#xa;Commands: PlaceOrder, CancelOrder" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#2C6FA3;fillColor=#438DD5;fontColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="560" y="140" width="220" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="saga" value="Order Saga Coordinator&#xa;MassTransit + Kafka&#xa;State machine" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#2C6FA3;fillColor=#438DD5;fontColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="820" y="140" width="220" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="inventory" value="Inventory Service&#xa;ASP.NET Core&#xa;Reserves stock" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#2C6FA3;fillColor=#438DD5;fontColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="1080" y="60" width="200" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="payment" value="Payment Service&#xa;ASP.NET Core&#xa;PCI enclave" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#2C6FA3;fillColor=#438DD5;fontColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="1080" y="220" width="200" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="fulfillment" value="Fulfillment Service&#xa;ASP.NET Core&#xa;Carrier orchestration" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#2C6FA3;fillColor=#438DD5;fontColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="1340" y="160" width="210" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="notification" value="Notification Service&#xa;Event-driven communication" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#2C6FA3;fillColor=#438DD5;fontColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="1600" y="160" width="220" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="eventBus" value="Event Bus&#xa;Kafka / EventBridge&#xa;Topics: order.*, inventory.*, payment.*" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#2C6FA3;fillColor=#85BBF0;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="870" y="600" width="260" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="orderDb" value="Order DB&#xa;PostgreSQL + Event store" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#2C6FA3;fillColor=#85BBF0;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="560" y="340" width="220" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="inventoryDb" value="Inventory DB&#xa;PostgreSQL + Redis" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#2C6FA3;fillColor=#85BBF0;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="1410" y="610" width="200" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="legend" value="Flow&#xa;1. Place order (command)&#xa;2. Saga emits order.created&#xa;3. Inventory reserve&#xa;4. Payment capture&#xa;5. Saga confirms/compensates&#xa;6. Fulfillment + notifications" style="rounded=0;strokeColor=#000;fillColor=#fff;" parent="1" vertex="1">
+          <mxGeometry x="120" y="40" width="340" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="edge1" style="endArrow=block;strokeColor=#333;" parent="1" source="customer" target="apiGateway" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge2" style="endArrow=block;strokeColor=#333;" parent="1" source="apiGateway" target="orderApi" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge3" style="endArrow=block;strokeColor=#333;" parent="1" source="orderApi" target="saga" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge4" value="order.created" style="endArrow=block;strokeColor=#333;fontSize=12;" parent="1" source="saga" target="eventBus" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="920" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge5" value="inventory.reserve" style="endArrow=block;strokeColor=#333;fontSize=12;" parent="1" source="eventBus" target="inventory" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge6" value="payment.authorize" style="endArrow=block;strokeColor=#333;fontSize=12;" parent="1" source="eventBus" target="payment" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge7" value="responses" style="endArrow=block;strokeColor=#333;fontSize=12;" parent="1" source="inventory" target="eventBus" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge8" value="payment.completed" style="endArrow=block;strokeColor=#333;fontSize=12;" parent="1" source="payment" target="eventBus" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge9" value="order.confirmed" style="endArrow=block;strokeColor=#333;fontSize=12;" parent="1" source="eventBus" target="fulfillment" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge10" value="order.shipped / notifications" style="endArrow=block;strokeColor=#333;fontSize=12;" parent="1" source="fulfillment" target="notification" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge11" style="endArrow=block;strokeColor=#333;" parent="1" source="orderApi" target="orderDb" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge12" style="endArrow=block;strokeColor=#333;" parent="1" source="inventory" target="inventoryDb" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge13" value="events -&gt; analytics" style="endArrow=block;strokeColor=#333;fontSize=12;" parent="1" source="eventBus" target="notification" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="diagram_title" value="C3 - Order Saga Flow&#xa;Version: 1.0 | Creator: Nithin Mohan T K | Date: 2025-11-22" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#E1F5FE;fontColor=#000000;fontSize=16;fontStyle=1;align=left;verticalAlign=top;spacingLeft=10;spacingTop=5;" parent="1" vertex="1">
+          <mxGeometry x="510" y="40" width="500" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="diagram_legend" value="&lt;b&gt;Color Legend:&lt;/b&gt;&lt;br/&gt;&#xa;• &lt;span style=&quot;background-color:#08427B;color:#FFFFFF;padding:2px 5px;&quot;&gt;Blue&lt;/span&gt; = People/Actors&lt;br/&gt;&#xa;• &lt;span style=&quot;background-color:#1168BD;color:#FFFFFF;padding:2px 5px;&quot;&gt;Dark Blue&lt;/span&gt; = NovaRetail Systems&lt;br/&gt;&#xa;• &lt;span style=&quot;background-color:#999999;color:#FFFFFF;padding:2px 5px;&quot;&gt;Grey&lt;/span&gt; = External Systems&lt;br/&gt;&#xa;• &lt;span style=&quot;background-color:#85BBF0;color:#000000;padding:2px 5px;&quot;&gt;Light Blue&lt;/span&gt; = Data/Event Platforms" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#FFFFFF;fontColor=#000000;fontSize=12;align=left;verticalAlign=top;spacingLeft=10;spacingTop=5;" parent="1" vertex="1">
+          <mxGeometry x="40" y="550" width="400" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="process_flow_steps" value="&lt;b&gt;Process Flow:&lt;/b&gt;&lt;br/&gt;&#xa;1. Order Created&lt;br/&gt;&#xa;2. Inventory Reserved&lt;br/&gt;&#xa;3. Payment Processed&lt;br/&gt;&#xa;4. Order Confirmed&lt;br/&gt;&#xa;5. Fulfillment Initiated" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#E8F5E9;fontColor=#000000;fontSize=11;align=left;verticalAlign=top;spacingLeft=5;spacingTop=3;" parent="1" vertex="1">
+          <mxGeometry x="490" y="560" width="250" height="170" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="D1_Deployment_AKS" name="D1 - Azure AKS Deployment">
+    <mxGraphModel dx="1426" dy="961" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2200" pageHeight="1400" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="clients" value="Customers / Partners&#xa;• Web / Mobile / APIs" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#052E56;fillColor=#08427B;fontColor=#FFFFFF;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="80" y="160" width="280" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="afd" value="Azure Front Door + WAF&#xa;Global entry / CDN" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#1D6F9E;fillColor=#438DD5;fontColor=#FFFFFF;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="420" y="160" width="260" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="apim" value="Azure API Management&#xa;OAuth2/OIDC, throttling" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#1D6F9E;fillColor=#438DD5;fontColor=#FFFFFF;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="720" y="160" width="260" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="firewall" value="Azure Firewall / Hub VNet&#xa;Zero-trust ingress/egress" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#1D6F9E;fillColor=#438DD5;fontColor=#FFFFFF;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="1020" y="160" width="280" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="aksVnet" value="Spoke VNet (AKS + Data)" style="swimlane;whiteSpace=wrap;html=1;horizontal=0;rounded=1;strokeColor=#0B4A7A;fillColor=#FFFFFF;fontStyle=1;fontSize=18;" parent="1" vertex="1">
+          <mxGeometry x="280" y="340" width="1460" height="510" as="geometry" />
+        </mxCell>
+        <mxCell id="ingress" value="Azure Application Gateway Ingress Controller" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#1D6F9E;fillColor=#438DD5;fontColor=%23FFFFFF;fontSize=16;" parent="aksVnet" vertex="1">
+          <mxGeometry x="60" y="60" width="320" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="aksCluster" value="AKS Cluster (.NET 10 Microservices)" style="swimlane;whiteSpace=wrap;html=1;horizontal=0;rounded=1;strokeColor=#2C6FA3;fillColor=#FFFFFF;fontStyle=1;" parent="aksVnet" vertex="1">
+          <mxGeometry x="420" y="40" width="600" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="systemPool" value="System Node Pool&#xa;• Istio control plane&#xa;• Gatekeeper, Dapr, etc." style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#2C6FA3;fillColor=#438DD5;fontColor=#FFFFFF;" parent="aksCluster" vertex="1">
+          <mxGeometry x="40" y="32" width="260" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="userPool" value="User Node Pools&#xa;• .NET 10 services&#xa;• HPA / KEDA" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#2C6FA3;fillColor=#438DD5;fontColor=#FFFFFF;" parent="aksCluster" vertex="1">
+          <mxGeometry x="320" y="32" width="250" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="jobsPool" value="Spot / GPU Pools&#xa;Batch + ML workloads" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#2C6FA3;fillColor=#438DD5;fontColor=#FFFFFF;" parent="aksCluster" vertex="1">
+          <mxGeometry x="40" y="162" width="260" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="stateful" value="Stateful Services&#xa;• Redis HA (Azure Cache)&#xa;• Dapr bindings" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#2C6FA3;fillColor=#438DD5;fontColor=#FFFFFF;" parent="aksCluster" vertex="1">
+          <mxGeometry x="320" y="162" width="250" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="acr" value="Azure Container Registry&#xa;Private endpoints + image scan" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#1D6F9E;fillColor=#85BBF0;fontColor=#000000;" parent="aksVnet" vertex="1">
+          <mxGeometry x="1080" y="60" width="250" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="keyvault" value="Azure Key Vault&#xa;Managed identities, CSI driver" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#1D6F9E;fillColor=#85BBF0;fontColor=#000000;" parent="aksVnet" vertex="1">
+          <mxGeometry x="1080" y="200" width="250" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="dataStores" value="Managed Data Plane&#xa;• Azure Database for PostgreSQL&#xa;• Cosmos DB (catalog)&#xa;• Azure Cache for Redis&#xa;• Event Hubs / Service Bus" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#1D6F9E;fillColor=#85BBF0;fontColor=#000000;" parent="aksVnet" vertex="1">
+          <mxGeometry x="140" y="360" width="310" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="monitoring" value="Observability&#xa;• Azure Monitor / Log Analytics&#xa;• App Insights + OpenTelemetry&#xa;• Defender for Cloud" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#1D6F9E;fillColor=#85BBF0;fontColor=#000000;" parent="aksVnet" vertex="1">
+          <mxGeometry x="500" y="360" width="280" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="devops" value="CI/CD + GitOps&#xa;• GitHub Actions / Azure DevOps&#xa;• OIDC → Federated creds&#xa;• Flux / Argo CD" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#1D6F9E;fillColor=#85BBF0;fontColor=#000000;" parent="aksVnet" vertex="1">
+          <mxGeometry x="820" y="360" width="270" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="backup" value="Backup &amp; DR&#xa;• Velero to Azure Blob&#xa;• Cross-region replication" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#1D6F9E;fillColor=#85BBF0;fontColor=#000000;" parent="aksVnet" vertex="1">
+          <mxGeometry x="1140" y="360" width="270" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="edge01" style="endArrow=block;strokeColor=#333333;" parent="1" source="clients" target="afd" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge02" style="endArrow=block;strokeColor=#333333;" parent="1" source="afd" target="apim" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge03" style="endArrow=block;strokeColor=#333333;" parent="1" source="apim" target="firewall" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge04" style="endArrow=block;strokeColor=#333333;" parent="1" source="firewall" target="ingress" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge05" style="endArrow=open;dashed=1;strokeColor=#666666;" parent="1" source="devops" target="aksCluster" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge06" style="endArrow=open;dashed=1;strokeColor=#666666;" parent="1" source="acr" target="aksCluster" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge07" style="endArrow=open;dashed=1;strokeColor=#666666;" parent="1" source="keyvault" target="aksCluster" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge08" style="endArrow=block;strokeColor=#333333;" parent="1" source="aksCluster" target="dataStores" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge09" style="endArrow=block;strokeColor=#333333;" parent="1" source="aksCluster" target="monitoring" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge10" style="endArrow=block;strokeColor=#333333;" parent="1" source="aksCluster" target="backup" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge11" style="endArrow=block;strokeColor=#333333;" parent="1" source="ingress" target="aksCluster" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="legend" value="Best Practices&#xa;• Hub-Spoke networking + Azure Firewall&#xa;• APIM fronting all ingress with WAF&#xa;• Managed identity + Key Vault CSI&#xa;• GitOps &amp; policy (OPA/Gatekeeper)&#xa;• Observability + security baseline" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#FFFFFF;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="80" y="40" width="360" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="diagram_title" value="D1 - Azure AKS Deployment&#xa;Version: 1.0 | Creator: Nithin Mohan T K | Date: 2025-11-22" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#E1F5FE;fontColor=#000000;fontSize=16;fontStyle=1;align=left;verticalAlign=top;spacingLeft=10;spacingTop=5;" parent="1" vertex="1">
+          <mxGeometry x="510" y="40" width="600" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="diagram_legend" value="&lt;b&gt;Color Legend:&lt;/b&gt;&lt;br/&gt;&#xa;• &lt;span style=&quot;background-color:#0078D4;color:#FFFFFF;padding:2px 5px;&quot;&gt;Azure Blue&lt;/span&gt; = Azure Services&lt;br/&gt;&#xa;• &lt;span style=&quot;background-color:#FF9900;color:#FFFFFF;padding:2px 5px;&quot;&gt;AWS Orange&lt;/span&gt; = AWS Services&lt;br/&gt;&#xa;• &lt;span style=&quot;background-color:#4285F4;color:#FFFFFF;padding:2px 5px;&quot;&gt;GCP Blue&lt;/span&gt; = GCP Services&lt;br/&gt;&#xa;• &lt;span style=&quot;background-color:#E1F5FE;color:#000000;padding:2px 5px;&quot;&gt;Light Blue&lt;/span&gt; = Data/Storage" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#FFFFFF;fontColor=#000000;fontSize=12;align=left;verticalAlign=top;spacingLeft=10;spacingTop=5;" parent="1" vertex="1">
+          <mxGeometry x="30" y="900" width="400" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="deployment_steps" value="&lt;b&gt;Deployment Steps:&lt;/b&gt;&lt;br/&gt;&#xa;1. Setup Hub VNet &amp; Firewall&lt;br/&gt;&#xa;2. Create Spoke VNets&lt;br/&gt;&#xa;3. Deploy AKS Cluster&lt;br/&gt;&#xa;4. Configure API Management&lt;br/&gt;&#xa;5. Setup Data Services&lt;br/&gt;&#xa;6. Configure Monitoring" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#E8F5E9;fontColor=#000000;fontSize=11;align=left;verticalAlign=top;spacingLeft=5;spacingTop=3;" parent="1" vertex="1">
+          <mxGeometry x="480" y="900" width="300" height="200" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="D2_Deployment_EKS" name="D2 - AWS EKS Deployment">
+    <mxGraphModel dx="1426" dy="961" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2200" pageHeight="1400" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="clients" value="Customers / Partners&#xa;• Web / Mobile / APIs" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#052E56;fillColor=#08427B;fontColor=#FFFFFF;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="60" y="150" width="280" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="cloudfront" value="Amazon CloudFront + AWS WAF" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#0E6A8C;fillColor=#5DADE2;fontColor=#FFFFFF;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="360" y="150" width="260" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="alb" value="Application Load Balancer&#xa;TLS termination + mTLS to mesh" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#0E6A8C;fillColor=#5DADE2;fontColor=#FFFFFF;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="650" y="150" width="260" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="shield" value="AWS Shield Advanced&#xa;DDOS protection" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#0E6A8C;fillColor=#5DADE2;fontColor=#FFFFFF;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="940" y="150" width="240" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="vpc" value="Shared Services VPC (Transit Gateway)" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#0B4A7A;fillColor=#FFFFFF;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="1220" y="140" width="360" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="apigw" value="Amazon API Gateway&#xa;AuthN/Z, throttling, usage plans" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#0E6A8C;fillColor=#5DADE2;fontColor=#FFFFFF;fontSize=16;" parent="vpc" vertex="1">
+          <mxGeometry x="30" y="40" width="300" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="eksVpc" value="NovaRetail Workload VPC" style="swimlane;whiteSpace=wrap;html=1;horizontal=0;rounded=1;strokeColor=#0B4A7A;fillColor=#FFFFFF;fontStyle=1;fontSize=18;" parent="1" vertex="1">
+          <mxGeometry x="260" y="340" width="1460" height="640" as="geometry" />
+        </mxCell>
+        <mxCell id="eksCluster" value="Amazon EKS Cluster (.NET 10 services)" style="swimlane;whiteSpace=wrap;html=1;horizontal=0;rounded=1;strokeColor=#2C6FA3;fillColor=#FFFFFF;fontStyle=1;" parent="eksVpc" vertex="1">
+          <mxGeometry x="420" y="40" width="560" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="controlPlane" value="Managed Control Plane&#xa;• Multi-AZ&#xa;• AWS IAM Authenticator" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#2C6FA3;fillColor=#5DADE2;fontColor=#FFFFFF;" parent="eksCluster" vertex="1">
+          <mxGeometry x="40" y="30" width="220" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="managedNodes" value="Managed Node Groups&#xa;• .NET 10 workloads&#xa;• ASG + Bottlerocket" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#2C6FA3;fillColor=#5DADE2;fontColor=#FFFFFF;" parent="eksCluster" vertex="1">
+          <mxGeometry x="290" y="30" width="220" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="fargate" value="EKS Fargate Profiles&#xa;• Event/cron pods" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#2C6FA3;fillColor=#5DADE2;fontColor=#FFFFFF;" parent="eksCluster" vertex="1">
+          <mxGeometry x="40" y="160" width="220" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="mesh" value="App Mesh / Istio&#xa;• mTLS&#xa;• Traffic shifting" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#2C6FA3;fillColor=#5DADE2;fontColor=#FFFFFF;" parent="eksCluster" vertex="1">
+          <mxGeometry x="290" y="160" width="210" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="ingress" value="AWS Load Balancer Controller&#xa;ALB/NLB integration" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#2C6FA3;fillColor=#5DADE2;fontColor=#FFFFFF;" parent="eksVpc" vertex="1">
+          <mxGeometry x="80" y="60" width="300" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="ecr" value="Amazon ECR&#xa;Image scanning + private link" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#0E6A8C;fillColor=#AED6F1;fontColor=#000000;" parent="eksVpc" vertex="1">
+          <mxGeometry x="1020" y="60" width="260" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="secrets" value="Secrets &amp; Config&#xa;• AWS Secrets Manager&#xa;• AWS Parameter Store&#xa;• IRSA (IAM Roles for Service Accounts)" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#0E6A8C;fillColor=#AED6F1;fontColor=#000000;" parent="eksVpc" vertex="1">
+          <mxGeometry x="1020" y="220" width="320" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="dataPlane" value="Managed Data &amp; Messaging&#xa;• Amazon RDS PostgreSQL&#xa;• DynamoDB / ElastiCache&#xa;• MSK (Kafka) / EventBridge&#xa;• OpenSearch" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#0E6A8C;fillColor=#AED6F1;fontColor=#000000;" parent="eksVpc" vertex="1">
+          <mxGeometry x="70" y="380" width="320" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="observability" value="Observability &amp; Security&#xa;• Amazon CloudWatch / AMP&#xa;• AWS X-Ray + OpenTelemetry&#xa;• GuardDuty, Inspector, Detective&#xa;• AWS Config + Security Hub" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#0E6A8C;fillColor=#AED6F1;fontColor=#000000;" parent="eksVpc" vertex="1">
+          <mxGeometry x="490" y="380" width="290" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="devsecops" value="DevSecOps&#xa;• AWS CodePipeline / GitHub Actions&#xa;• IaC (CDK / Terraform)&#xa;• OPA / Kyverno policies" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#0E6A8C;fillColor=#AED6F1;fontColor=#000000;" parent="eksVpc" vertex="1">
+          <mxGeometry x="820" y="380" width="280" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="backup" value="Backup &amp; DR&#xa;• Velero to S3 (cross-region)&#xa;• AWS Backup for RDS/DynamoDB" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#0E6A8C;fillColor=#AED6F1;fontColor=#000000;" parent="eksVpc" vertex="1">
+          <mxGeometry x="1140" y="380" width="270" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="edge1" style="endArrow=block;strokeColor=#333333;" parent="1" source="clients" target="cloudfront" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge2" style="endArrow=block;strokeColor=#333333;" parent="1" source="cloudfront" target="alb" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge3" style="endArrow=block;strokeColor=#333333;" parent="1" source="alb" target="shield" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge4" style="endArrow=block;strokeColor=#333333;" parent="1" source="shield" target="apigw" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge5" style="endArrow=block;strokeColor=#333333;" parent="1" source="apigw" target="ingress" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge6" style="endArrow=block;strokeColor=#333333;" parent="1" source="ingress" target="eksCluster" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge7" style="endArrow=open;dashed=1;strokeColor=#666666;" parent="1" source="ecr" target="eksCluster" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge8" style="endArrow=open;dashed=1;strokeColor=#666666;" parent="1" source="secrets" target="eksCluster" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge9" style="endArrow=block;strokeColor=#333333;" parent="1" source="eksCluster" target="dataPlane" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge10" style="endArrow=block;strokeColor=#333333;" parent="1" source="eksCluster" target="observability" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge11" style="endArrow=open;dashed=1;strokeColor=#666666;" parent="1" source="devsecops" target="eksCluster" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge12" style="endArrow=block;strokeColor=#333333;" parent="1" source="eksCluster" target="backup" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="legend" value="AWS Best Practices&#xa;• Multi-AZ EKS + private subnets&#xa;• CloudFront+WAF+Shield for edge&#xa;• API Gateway + App Mesh + IRSA&#xa;• GitOps/IaC + policy guardrails&#xa;• Full observability &amp; backup" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#FFFFFF;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="60" y="30" width="360" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="diagram_title" value="D2 - AWS EKS Deployment&#xa;Version: 1.0 | Creator: Nithin Mohan T K | Date: 2025-11-22" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#E1F5FE;fontColor=#000000;fontSize=16;fontStyle=1;align=left;verticalAlign=top;spacingLeft=10;spacingTop=5;" parent="1" vertex="1">
+          <mxGeometry x="500" y="40" width="600" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="diagram_legend" value="&lt;b&gt;Color Legend:&lt;/b&gt;&lt;br/&gt;&#xa;• &lt;span style=&quot;background-color:#0078D4;color:#FFFFFF;padding:2px 5px;&quot;&gt;Azure Blue&lt;/span&gt; = Azure Services&lt;br/&gt;&#xa;• &lt;span style=&quot;background-color:#FF9900;color:#FFFFFF;padding:2px 5px;&quot;&gt;AWS Orange&lt;/span&gt; = AWS Services&lt;br/&gt;&#xa;• &lt;span style=&quot;background-color:#4285F4;color:#FFFFFF;padding:2px 5px;&quot;&gt;GCP Blue&lt;/span&gt; = GCP Services&lt;br/&gt;&#xa;• &lt;span style=&quot;background-color:#E1F5FE;color:#000000;padding:2px 5px;&quot;&gt;Light Blue&lt;/span&gt; = Data/Storage" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#FFFFFF;fontColor=#000000;fontSize=12;align=left;verticalAlign=top;spacingLeft=10;spacingTop=5;" parent="1" vertex="1">
+          <mxGeometry x="40" y="1000" width="400" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="deployment_steps" value="&lt;b&gt;Deployment Steps:&lt;/b&gt;&lt;br/&gt;&#xa;1. Create VPC &amp; Subnets&lt;br/&gt;&#xa;2. Setup CloudFront &amp; WAF&lt;br/&gt;&#xa;3. Deploy EKS Cluster&lt;br/&gt;&#xa;4. Configure API Gateway&lt;br/&gt;&#xa;5. Setup RDS &amp; Data Services&lt;br/&gt;&#xa;6. Configure CloudWatch" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#E8F5E9;fontColor=#000000;fontSize=11;align=left;verticalAlign=top;spacingLeft=5;spacingTop=3;" parent="1" vertex="1">
+          <mxGeometry x="480" y="1000" width="300" height="200" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="D3_Deployment_GKE" name="D3 - GCP GKE Deployment">
+    <mxGraphModel dx="2066" dy="1202" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2200" pageHeight="1400" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="clients" value="Customers / Partners&#xa;Web / Mobile / APIs" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#052E56;fillColor=#08427B;fontColor=#FFFFFF;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="80" y="150" width="280" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="cloudArmor" value="Cloud Armor + HTTPS Load Balancer&#xa;Global Anycast + WAF" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#0E6A8C;fillColor=#5DADE2;fontColor=#FFFFFF;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="380" y="150" width="320" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="apigee" value="Apigee X (API Gateway)&#xa;AuthN/Z, quotas, monetization" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#0E6A8C;fillColor=#5DADE2;fontColor=#FFFFFF;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="760" y="150" width="320" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="vpc" value="Shared VPC (Connectivity / Security)" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#0B4A7A;fillColor=#FFFFFF;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="1160" y="130" width="360" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="iap" value="Identity-Aware Proxy&#xa;Zero-trust access for ops" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#0E6A8C;fillColor=#5DADE2;fontColor=#FFFFFF;fontSize=16;" parent="vpc" vertex="1">
+          <mxGeometry x="30" y="48" width="300" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="gkeVPC" value="NovaRetail GCP Workload VPC" style="swimlane;whiteSpace=wrap;html=1;horizontal=0;rounded=1;strokeColor=#0B4A7A;fillColor=#FFFFFF;fontStyle=1;fontSize=18;" parent="1" vertex="1">
+          <mxGeometry x="260" y="340" width="1390" height="660" as="geometry" />
+        </mxCell>
+        <mxCell id="gke" value="GKE Regional Cluster (.NET 10 services)" style="swimlane;whiteSpace=wrap;html=1;horizontal=0;rounded=1;strokeColor=#2C6FA3;fillColor=#FFFFFF;fontStyle=1;" parent="gkeVPC" vertex="1">
+          <mxGeometry x="420" y="60" width="560" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="controlPlane" value="Autopilot Control Plane&#xa;• Multi-zone&#xa;• Shielded nodes" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#2C6FA3;fillColor=#5DADE2;fontColor=#FFFFFF;" parent="gke" vertex="1">
+          <mxGeometry x="30" y="50" width="220" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="nodePools" value="Node Pools&#xa;• Workload-optimized (spot/on-demand)&#xa;• ASM/Istio sidecars" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#2C6FA3;fillColor=#5DADE2;fontColor=#FFFFFF;" parent="gke" vertex="1">
+          <mxGeometry x="280" y="50" width="220" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="serverless" value="Cloud Run / Cloud Functions&#xa;Edge adapters / async jobs" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#2C6FA3;fillColor=#5DADE2;fontColor=#FFFFFF;" parent="gke" vertex="1">
+          <mxGeometry x="160" y="190" width="220" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="istio" value="Anthos Service Mesh&#xa;• mTLS&#xa;• Policy / traffic splitting" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#2C6FA3;fillColor=#5DADE2;fontColor=#FFFFFF;" parent="gke" vertex="1">
+          <mxGeometry x="360" y="190" width="200" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="ingress" value="GKE Ingress (Envoy) + Cloud Load Balancing" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#2C6FA3;fillColor=#5DADE2;fontColor=#FFFFFF;" parent="gkeVPC" vertex="1">
+          <mxGeometry x="80" y="60" width="320" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="artifact" value="Artifact Registry&#xa;Vulnerability scanning + Binary Authorization" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#0E6A8C;fillColor=#AED6F1;fontColor=#000000;" parent="gkeVPC" vertex="1">
+          <mxGeometry x="1090" y="90" width="260" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="secret" value="Secrets &amp; Config&#xa;• Secret Manager&#xa;• Config Connector&#xa;• Workload Identity" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#0E6A8C;fillColor=#AED6F1;fontColor=#000000;" parent="gkeVPC" vertex="1">
+          <mxGeometry x="1090" y="240" width="260" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="data" value="Managed Data &amp; Messaging&#xa;• Cloud SQL PostgreSQL&#xa;• Spanner / Firestore&#xa;• Memorystore Redis&#xa;• Pub/Sub / Dataflow / BigQuery" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#0E6A8C;fillColor=#AED6F1;fontColor=#000000;" parent="gkeVPC" vertex="1">
+          <mxGeometry x="80" y="380" width="310" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="observability" value="Operations Suite&#xa;• Cloud Logging / Monitoring&#xa;• Cloud Trace + Profiler&#xa;• Security Command Center" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#0E6A8C;fillColor=#AED6F1;fontColor=#000000;" parent="gkeVPC" vertex="1">
+          <mxGeometry x="500" y="380" width="240" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="devops" value="CI/CD &amp; Policy&#xa;• Cloud Build / GitHub Actions&#xa;• Config Sync / Anthos Config Mgmt&#xa;• Policy Controller (OPA)" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#0E6A8C;fillColor=#AED6F1;fontColor=#000000;" parent="gkeVPC" vertex="1">
+          <mxGeometry x="790" y="380" width="250" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="dr" value="Backup &amp; DR&#xa;• GKE Backup for GKE&#xa;• Multi-region state replication&#xa;• Filestore snapshots" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#0E6A8C;fillColor=#AED6F1;fontColor=#000000;" parent="gkeVPC" vertex="1">
+          <mxGeometry x="1090" y="390" width="250" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="edge1" style="endArrow=block;strokeColor=#333333;" parent="1" source="clients" target="cloudArmor" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge2" style="endArrow=block;strokeColor=#333333;" parent="1" source="cloudArmor" target="apigee" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge3" style="endArrow=block;strokeColor=#333333;" parent="1" source="apigee" target="iap" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge4" style="endArrow=block;strokeColor=#333333;" parent="1" source="iap" target="ingress" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge5" style="endArrow=block;strokeColor=#333333;" parent="1" source="ingress" target="gke" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge6" style="endArrow=open;dashed=1;strokeColor=#666666;" parent="1" source="artifact" target="gke" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge7" style="endArrow=open;dashed=1;strokeColor=#666666;" parent="1" source="secret" target="gke" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge8" style="endArrow=block;strokeColor=#333333;" parent="1" source="gke" target="data" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge9" style="endArrow=block;strokeColor=#333333;" parent="1" source="gke" target="observability" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge10" style="endArrow=open;dashed=1;strokeColor=#666666;" parent="1" source="devops" target="gke" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge11" style="endArrow=block;strokeColor=#333333;" parent="1" source="gke" target="dr" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="legend" value="GCP Best Practices&#xa;• Cloud Armor + global load balancing&#xa;• Apigee gateway + Anthos Service Mesh&#xa;• Workload Identity + Binary Authorization&#xa;• Config Sync / policy guardrails&#xa;• Full-stack observability + backup" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#FFFFFF;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="1560" y="155" width="360" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="diagram_title" value="D3 - GCP GKE Deployment&#xa;Version: 1.0 | Creator: Nithin Mohan T K | Date: 2025-11-22" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#E1F5FE;fontColor=#000000;fontSize=16;fontStyle=1;align=left;verticalAlign=top;spacingLeft=10;spacingTop=5;" parent="1" vertex="1">
+          <mxGeometry x="530" y="40" width="600" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="diagram_legend" value="&lt;b&gt;Color Legend:&lt;/b&gt;&lt;br/&gt;&#xa;• &lt;span style=&quot;background-color:#0078D4;color:#FFFFFF;padding:2px 5px;&quot;&gt;Azure Blue&lt;/span&gt; = Azure Services&lt;br/&gt;&#xa;• &lt;span style=&quot;background-color:#FF9900;color:#FFFFFF;padding:2px 5px;&quot;&gt;AWS Orange&lt;/span&gt; = AWS Services&lt;br/&gt;&#xa;• &lt;span style=&quot;background-color:#4285F4;color:#FFFFFF;padding:2px 5px;&quot;&gt;GCP Blue&lt;/span&gt; = GCP Services&lt;br/&gt;&#xa;• &lt;span style=&quot;background-color:#E1F5FE;color:#000000;padding:2px 5px;&quot;&gt;Light Blue&lt;/span&gt; = Data/Storage" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#FFFFFF;fontColor=#000000;fontSize=12;align=left;verticalAlign=top;spacingLeft=10;spacingTop=5;" parent="1" vertex="1">
+          <mxGeometry x="40" y="1040" width="400" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="deployment_steps" value="&lt;b&gt;Deployment Steps:&lt;/b&gt;&lt;br/&gt;&#xa;1. Setup VPC Network&lt;br/&gt;&#xa;2. Configure Cloud Armor&lt;br/&gt;&#xa;3. Deploy GKE Cluster&lt;br/&gt;&#xa;4. Setup Apigee X&lt;br/&gt;&#xa;5. Configure Data Services&lt;br/&gt;&#xa;6. Setup Operations Suite" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#E8F5E9;fontColor=#000000;fontSize=11;align=left;verticalAlign=top;spacingLeft=5;spacingTop=3;" parent="1" vertex="1">
+          <mxGeometry x="470" y="1040" width="300" height="200" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="D4_Deployment_OnPrem" name="D4 - On-Premise Deployment">
+    <mxGraphModel dx="2066" dy="1202" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2200" pageHeight="1400" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="clients" value="Customers / Partners&#xa;Web / Mobile / APIs" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#052E56;fillColor=#08427B;fontColor=#FFFFFF;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="60" y="150" width="280" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="internet" value="Internet Edge&#xa;• ISP/MPLS&#xa;• DDoS appliance" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#404040;fillColor=#999999;fontColor=#FFFFFF;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="360" y="150" width="220" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="dmz" value="DMZ Tier&#xa;• External WAF/ADC&#xa;• Reverse proxy" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#0E6A8C;fillColor=#5DADE2;fontColor=#FFFFFF;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="620" y="150" width="240" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="apiGateway" value="API Gateway&#xa;• Kong / Tyk / Azure APIM self-hosted&#xa;• OAuth2/OIDC" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#0E6A8C;fillColor=#5DADE2;fontColor=#FFFFFF;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="900" y="150" width="320" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="coreNetwork" value="Core Network / SDN Fabric" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#0B4A7A;fillColor=#FFFFFF;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="1260" y="130" width="360" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="vpn" value="Zero Trust VPN + NAC" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#0E6A8C;fillColor=#5DADE2;fontColor=#FFFFFF;" parent="coreNetwork" vertex="1">
+          <mxGeometry x="40" y="40" width="280" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="datacenter" value="Primary Data Center" style="swimlane;whiteSpace=wrap;html=1;horizontal=0;rounded=1;strokeColor=#0B4A7A;fillColor=#FFFFFF;fontStyle=1;fontSize=18;" parent="1" vertex="1">
+          <mxGeometry x="250" y="330" width="1430" height="580" as="geometry" />
+        </mxCell>
+        <mxCell id="k8s" value="Self-Managed Kubernetes (.NET 10 services)" style="swimlane;whiteSpace=wrap;html=1;horizontal=0;rounded=1;strokeColor=#2C6FA3;fillColor=#FFFFFF;fontStyle=1;" parent="datacenter" vertex="1">
+          <mxGeometry x="420" y="40" width="590" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="masters" value="Control Plane&#xa;• HA etcd&#xa;• kube-apiserver&#xa;• Calico/Flannel CNI" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#2C6FA3;fillColor=#5DADE2;fontColor=#FFFFFF;" parent="k8s" vertex="1">
+          <mxGeometry x="30" y="50" width="220" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="workers" value="Worker Pools&#xa;• .NET 10 services&#xa;• GPU/spot pools" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#2C6FA3;fillColor=#5DADE2;fontColor=#FFFFFF;" parent="k8s" vertex="1">
+          <mxGeometry x="280" y="50" width="220" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="serviceMesh" value="Service Mesh (Istio/Linkerd)&#xa;• mTLS&#xa;• Policy enforcement" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#2C6FA3;fillColor=#5DADE2;fontColor=#FFFFFF;" parent="k8s" vertex="1">
+          <mxGeometry x="160" y="190" width="220" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="scheduler" value="Edge / Batch Nodes&#xa;• HashiCorp Nomad or K8s jobs" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#2C6FA3;fillColor=#5DADE2;fontColor=#FFFFFF;" parent="k8s" vertex="1">
+          <mxGeometry x="360" y="190" width="200" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="ingress" value="Ingress Tier&#xa;• HAProxy / NGINX / F5 Ingress" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#2C6FA3;fillColor=#5DADE2;fontColor=#FFFFFF;" parent="datacenter" vertex="1">
+          <mxGeometry x="80" y="60" width="300" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="registry" value="Container Registry&#xa;• Harbor + Trivy&#xa;• Signed artifacts (Cosign)" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#0E6A8C;fillColor=#AED6F1;fontColor=#000000;" parent="datacenter" vertex="1">
+          <mxGeometry x="1125" y="90" width="260" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="secrets" value="Secrets &amp; Certificates&#xa;• HashiCorp Vault&#xa;• HSM integration" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#0E6A8C;fillColor=#AED6F1;fontColor=#000000;" parent="datacenter" vertex="1">
+          <mxGeometry x="1130" y="240" width="250" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="data" value="Data &amp; Messaging&#xa;• PostgreSQL clusters&#xa;• MongoDB / Elastic / Redis&#xa;• Kafka (Confluent)&#xa;• Object storage (Ceph/S3-compatible)" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#0E6A8C;fillColor=#AED6F1;fontColor=#000000;" parent="datacenter" vertex="1">
+          <mxGeometry x="90" y="380" width="310" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="monitoring" value="Observability &amp; Security&#xa;• Prometheus/Grafana/ELK&#xa;• OpenTelemetry collectors&#xa;• SIEM/SOC tooling" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#0E6A8C;fillColor=#AED6F1;fontColor=#000000;" parent="datacenter" vertex="1">
+          <mxGeometry x="460" y="380" width="270" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="devops" value="CI/CD &amp; Infra Automation&#xa;• GitHub Enterprise / Jenkins&#xa;• Ansible / Terraform / Argo CD&#xa;• Policy-as-Code (OPA/Gatekeeper)" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#0E6A8C;fillColor=#AED6F1;fontColor=#000000;" parent="datacenter" vertex="1">
+          <mxGeometry x="780" y="380" width="280" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="dr" value="DR / Secondary Site&#xa;• Storage replication&#xa;• Database log shipping&#xa;• Warm-standby Kubernetes" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#0E6A8C;fillColor=#AED6F1;fontColor=#000000;" parent="datacenter" vertex="1">
+          <mxGeometry x="1110" y="385" width="280" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="edge1" style="endArrow=block;strokeColor=#333333;" parent="1" source="clients" target="internet" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge2" style="endArrow=block;strokeColor=#333333;" parent="1" source="internet" target="dmz" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge3" style="endArrow=block;strokeColor=#333333;" parent="1" source="dmz" target="apiGateway" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge4" style="endArrow=block;strokeColor=#333333;" parent="1" source="apiGateway" target="vpn" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge5" style="endArrow=block;strokeColor=#333333;" parent="1" source="vpn" target="ingress" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge6" style="endArrow=block;strokeColor=#333333;" parent="1" source="ingress" target="k8s" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge7" style="endArrow=open;dashed=1;strokeColor=#666666;" parent="1" source="registry" target="k8s" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge8" style="endArrow=open;dashed=1;strokeColor=#666666;" parent="1" source="secrets" target="k8s" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge9" style="endArrow=block;strokeColor=#333333;" parent="1" source="k8s" target="data" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge10" style="endArrow=block;strokeColor=#333333;" parent="1" source="k8s" target="monitoring" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge11" style="endArrow=open;dashed=1;strokeColor=#666666;" parent="1" source="devops" target="k8s" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge12" style="endArrow=block;strokeColor=#333333;" parent="1" source="k8s" target="dr" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="legend" value="Self-Hosted Best Practices&#xa;• Layered DMZ / core segmentation&#xa;• Hardened Kubernetes + mesh security&#xa;• Vault-backed secrets &amp; image signing&#xa;• Automated CI/CD + IaC + policy guardrails&#xa;• Dual-site DR with data replication" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#FFFFFF;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="70" y="10" width="380" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="diagram_title" value="D4 - On-Premise Deployment&#xa;Version: 1.0 | Creator: Nithin Mohan T K | Date: 2025-11-22" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#E1F5FE;fontColor=#000000;fontSize=16;fontStyle=1;align=left;verticalAlign=top;spacingLeft=10;spacingTop=5;" parent="1" vertex="1">
+          <mxGeometry x="540" y="40" width="600" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="diagram_legend" value="&lt;b&gt;Color Legend:&lt;/b&gt;&lt;br/&gt;&#xa;• &lt;span style=&quot;background-color:#0078D4;color:#FFFFFF;padding:2px 5px;&quot;&gt;Azure Blue&lt;/span&gt; = Azure Services&lt;br/&gt;&#xa;• &lt;span style=&quot;background-color:#FF9900;color:#FFFFFF;padding:2px 5px;&quot;&gt;AWS Orange&lt;/span&gt; = AWS Services&lt;br/&gt;&#xa;• &lt;span style=&quot;background-color:#4285F4;color:#FFFFFF;padding:2px 5px;&quot;&gt;GCP Blue&lt;/span&gt; = GCP Services&lt;br/&gt;&#xa;• &lt;span style=&quot;background-color:#E1F5FE;color:#000000;padding:2px 5px;&quot;&gt;Light Blue&lt;/span&gt; = Data/Storage" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#FFFFFF;fontColor=#000000;fontSize=12;align=left;verticalAlign=top;spacingLeft=10;spacingTop=5;" parent="1" vertex="1">
+          <mxGeometry x="40" y="1040" width="400" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="deployment_steps" value="&lt;b&gt;Deployment Steps:&lt;/b&gt;&lt;br/&gt;&#xa;1. Setup DMZ &amp; Firewall&lt;br/&gt;&#xa;2. Deploy Kubernetes&lt;br/&gt;&#xa;3. Configure Service Mesh&lt;br/&gt;&#xa;4. Setup Vault &amp; Secrets&lt;br/&gt;&#xa;5. Configure Data Stores&lt;br/&gt;&#xa;6. Setup Monitoring Stack" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#E8F5E9;fontColor=#000000;fontSize=11;align=left;verticalAlign=top;spacingLeft=5;spacingTop=3;" parent="1" vertex="1">
+          <mxGeometry x="480" y="1040" width="300" height="190" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="Azure_Cloud_Deployment" name="Azure Cloud Deployment (Detailed)">
+    <mxGraphModel dx="1426" dy="961" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2400" pageHeight="1600" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="internet" value="Internet / Global Users" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#666666;fillColor=#E1F5FE;fontColor=#000000;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="80" y="80" width="300" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="afd" value="Azure Front Door + WAF&#xa;Global CDN, DDoS Protection&#xa;SSL/TLS Termination" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#0078D4;fillColor=#0078D4;fontColor=#FFFFFF;fontSize=14;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="480" y="80" width="320" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="apim" value="Azure API Management&#xa;OAuth2/OIDC, Rate Limiting&#xa;API Versioning, Analytics" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#0078D4;fillColor=#0078D4;fontColor=#FFFFFF;fontSize=14;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="880" y="80" width="320" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="hubVnet" value="Hub Virtual Network&#xa;Azure Firewall Premium&#xa;Azure Bastion, VPN Gateway" style="swimlane;whiteSpace=wrap;html=1;horizontal=0;rounded=1;strokeColor=#0078D4;fillColor=#E3F2FD;fontStyle=1;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="200" y="240" width="2000" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="firewall" value="Azure Firewall Premium&#xa;Threat Intelligence&#xa;IDPS, TLS Inspection" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#0078D4;fillColor=#0078D4;fontColor=#FFFFFF;" parent="hubVnet" vertex="1">
+          <mxGeometry x="60" y="60" width="280" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="bastion" value="Azure Bastion&#xa;Secure RDP/SSH Access" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#0078D4;fillColor=#0078D4;fontColor=#FFFFFF;" parent="hubVnet" vertex="1">
+          <mxGeometry x="380" y="60" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="spoke1" value="Spoke VNet 1: AKS Production" style="swimlane;whiteSpace=wrap;html=1;horizontal=0;rounded=1;strokeColor=#0078D4;fillColor=#FFFFFF;fontStyle=1;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="200" y="500" width="900" height="600" as="geometry" />
+        </mxCell>
+        <mxCell id="appgw" value="Application Gateway&#xa;WAF v2, SSL Offload&#xa;URL-based Routing" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#0078D4;fillColor=#0078D4;fontColor=#FFFFFF;" parent="spoke1" vertex="1">
+          <mxGeometry x="60" y="60" width="280" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="aks" value="Azure Kubernetes Service&#xa;.NET 10 Microservices&#xa;System + User Node Pools" style="swimlane;whiteSpace=wrap;html=1;horizontal=0;rounded=1;strokeColor=#0078D4;fillColor=#E3F2FD;fontStyle=1;" parent="spoke1" vertex="1">
+          <mxGeometry x="60" y="200" width="760" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="istio" value="Istio Service Mesh&#xa;mTLS, Traffic Policies&#xa;Circuit Breakers" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#0078D4;fillColor=#90CAF9;fontColor=#000000;" parent="aks" vertex="1">
+          <mxGeometry x="40" y="40" width="220" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="services" value="Domain Services (.NET 10)&#xa;Customer, Order, Product&#xa;Inventory, Payment, etc." style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#0078D4;fillColor=#90CAF9;fontColor=#000000;" parent="aks" vertex="1">
+          <mxGeometry x="300" y="40" width="420" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="dapr" value="Dapr Sidecars&#xa;State Management&#xa;Pub/Sub, Bindings" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#0078D4;fillColor=#90CAF9;fontColor=#000000;" parent="aks" vertex="1">
+          <mxGeometry x="40" y="160" width="220" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="hpa" value="HPA / KEDA&#xa;Auto-scaling&#xa;Event-driven scaling" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#0078D4;fillColor=#90CAF9;fontColor=#000000;" parent="aks" vertex="1">
+          <mxGeometry x="300" y="160" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="acr" value="Azure Container Registry&#xa;Private Endpoints&#xa;Image Scanning, Geo-replication" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#0078D4;fillColor=#90CAF9;fontColor=#000000;" parent="spoke1" vertex="1">
+          <mxGeometry x="60" y="600" width="280" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="keyvault" value="Azure Key Vault&#xa;Managed Identities&#xa;CSI Driver Integration" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#0078D4;fillColor=#90CAF9;fontColor=#000000;" parent="spoke1" vertex="1">
+          <mxGeometry x="380" y="600" width="280" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="spoke2" value="Spoke VNet 2: Data Services" style="swimlane;whiteSpace=wrap;html=1;horizontal=0;rounded=1;strokeColor=#0078D4;fillColor=#FFFFFF;fontStyle=1;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="1200" y="500" width="1000" height="600" as="geometry" />
+        </mxCell>
+        <mxCell id="postgres" value="Azure Database for PostgreSQL&#xa;Flexible Server, HA&#xa;Read Replicas, Backup" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#0078D4;fillColor=#90CAF9;fontColor=#000000;" parent="spoke2" vertex="1">
+          <mxGeometry x="60" y="60" width="280" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="cosmos" value="Azure Cosmos DB&#xa;MongoDB API&#xa;Global Distribution" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#0078D4;fillColor=#90CAF9;fontColor=#000000;" parent="spoke2" vertex="1">
+          <mxGeometry x="380" y="60" width="280" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="redis" value="Azure Cache for Redis&#xa;Premium Tier, Clustering&#xa;Persistence, Geo-replication" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#0078D4;fillColor=#90CAF9;fontColor=#000000;" parent="spoke2" vertex="1">
+          <mxGeometry x="700" y="60" width="280" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="eventhubs" value="Azure Event Hubs&#xa;Kafka API, Capture&#xa;Schema Registry" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#0078D4;fillColor=#90CAF9;fontColor=#000000;" parent="spoke2" vertex="1">
+          <mxGeometry x="60" y="220" width="280" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="storage" value="Azure Storage Accounts&#xa;Blob, Data Lake Gen2&#xa;Lifecycle Management" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#0078D4;fillColor=#90CAF9;fontColor=#000000;" parent="spoke2" vertex="1">
+          <mxGeometry x="380" y="220" width="280" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="synapse" value="Azure Synapse Analytics&#xa;Data Warehouse&#xa;Spark Pools, Pipelines" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#0078D4;fillColor=#90CAF9;fontColor=#000000;" parent="spoke2" vertex="1">
+          <mxGeometry x="700" y="220" width="280" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="monitoring" value="Azure Monitor + Log Analytics&#xa;Application Insights&#xa;OpenTelemetry Integration" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#0078D4;fillColor=#90CAF9;fontColor=#000000;" parent="spoke2" vertex="1">
+          <mxGeometry x="60" y="380" width="280" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="defender" value="Microsoft Defender for Cloud&#xa;Threat Protection&#xa;Security Posture Management" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#0078D4;fillColor=#90CAF9;fontColor=#000000;" parent="spoke2" vertex="1">
+          <mxGeometry x="380" y="380" width="280" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="devops" value="Azure DevOps&#xa;Pipelines, Repos&#xa;Artifacts, Test Plans" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#0078D4;fillColor=#90CAF9;fontColor=#000000;" parent="spoke2" vertex="1">
+          <mxGeometry x="700" y="380" width="280" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="edge1" style="endArrow=block;strokeColor=#333333;" parent="1" source="internet" target="afd" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge2" style="endArrow=block;strokeColor=#333333;" parent="1" source="afd" target="apim" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge3" style="endArrow=block;strokeColor=#333333;" parent="1" source="apim" target="firewall" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge4" style="endArrow=block;strokeColor=#333333;" parent="1" source="firewall" target="appgw" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge5" style="endArrow=block;strokeColor=#333333;" parent="1" source="appgw" target="aks" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge6" style="endArrow=block;strokeColor=#333333;" parent="1" source="aks" target="postgres" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge7" style="endArrow=block;strokeColor=#333333;" parent="1" source="aks" target="eventhubs" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="legend" value="Azure Best Practices:&#xa;• Hub-Spoke Network Topology&#xa;• Private Endpoints for PaaS&#xa;• Managed Identities (no secrets)&#xa;• GitOps (Flux/Argo CD)&#xa;• Multi-region DR&#xa;• Azure Policy + Blueprints" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#FFFFFF;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="80" y="1240" width="400" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="diagram_title" value="Azure Cloud Deployment (Detailed)&#xa;Version: 1.0 | Creator: Nithin Mohan T K | Date: 2025-11-22" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#E1F5FE;fontColor=#000000;fontSize=16;fontStyle=1;align=left;verticalAlign=top;spacingLeft=10;spacingTop=5;" parent="1" vertex="1">
+          <mxGeometry x="40" y="15" width="600" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="deployment_steps" value="&lt;b&gt;Deployment Steps:&lt;/b&gt;&lt;br/&gt;&#xa;1. Setup Hub VNet &amp; Firewall&lt;br/&gt;&#xa;2. Create Spoke VNets&lt;br/&gt;&#xa;3. Deploy AKS Cluster&lt;br/&gt;&#xa;4. Configure API Management&lt;br/&gt;&#xa;5. Setup Data Services&lt;br/&gt;&#xa;6. Configure Monitoring" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#E8F5E9;fontColor=#000000;fontSize=11;align=left;verticalAlign=top;spacingLeft=5;spacingTop=3;" parent="1" vertex="1">
+          <mxGeometry x="1800" y="20" width="300" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="diagram_legend" value="&lt;b&gt;Color Legend:&lt;/b&gt;&lt;br/&gt;&#xa;• &lt;span style=&quot;background-color:#0078D4;color:#FFFFFF;padding:2px 5px;&quot;&gt;Azure Blue&lt;/span&gt; = Azure Services&lt;br/&gt;&#xa;• &lt;span style=&quot;background-color:#FF9900;color:#FFFFFF;padding:2px 5px;&quot;&gt;AWS Orange&lt;/span&gt; = AWS Services&lt;br/&gt;&#xa;• &lt;span style=&quot;background-color:#4285F4;color:#FFFFFF;padding:2px 5px;&quot;&gt;GCP Blue&lt;/span&gt; = GCP Services&lt;br/&gt;&#xa;• &lt;span style=&quot;background-color:#E1F5FE;color:#000000;padding:2px 5px;&quot;&gt;Light Blue&lt;/span&gt; = Data/Storage" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#FFFFFF;fontColor=#000000;fontSize=12;align=left;verticalAlign=top;spacingLeft=10;spacingTop=5;" parent="1" vertex="1">
+          <mxGeometry x="520" y="1240" width="400" height="160" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="AWS_Cloud_Deployment" name="AWS Cloud Deployment (Detailed)">
+    <mxGraphModel dx="2066" dy="1202" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2400" pageHeight="1600" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="internet" value="Internet / Global Users" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#666666;fillColor=#E1F5FE;fontColor=#000000;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="80" y="80" width="300" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="cloudfront" value="Amazon CloudFront + WAF&#xa;Global CDN, DDoS Protection&#xa;SSL/TLS Termination" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#FF9900;fillColor=#FF9900;fontColor=#FFFFFF;fontSize=14;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="480" y="80" width="320" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="apigw" value="Amazon API Gateway&#xa;REST + HTTP APIs&#xa;OAuth2/OIDC, Throttling" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#FF9900;fillColor=#FF9900;fontColor=#FFFFFF;fontSize=14;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="880" y="80" width="320" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="vpc" value="VPC: Production (10.0.0.0/16)" style="swimlane;whiteSpace=wrap;html=1;horizontal=0;rounded=1;strokeColor=#FF9900;fillColor=#FFF4E6;fontStyle=1;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="200" y="240" width="2000" height="1000" as="geometry" />
+        </mxCell>
+        <mxCell id="publicSubnet" value="Public Subnets (Multi-AZ)&#xa;NAT Gateway, Internet Gateway" style="swimlane;whiteSpace=wrap;html=1;horizontal=0;rounded=1;strokeColor=#FF9900;fillColor=#FFFFFF;fontStyle=1;" parent="vpc" vertex="1">
+          <mxGeometry x="60" y="60" width="1880" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="alb" value="Application Load Balancer&#xa;WAF Integration&#xa;SSL/TLS Termination" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#FF9900;fillColor=#FF9900;fontColor=#FFFFFF;" parent="publicSubnet" vertex="1">
+          <mxGeometry x="60" y="60" width="320" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="nat" value="NAT Gateway (Multi-AZ)&#xa;High Availability" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#FF9900;fillColor=#FF9900;fontColor=#FFFFFF;" parent="publicSubnet" vertex="1">
+          <mxGeometry x="420" y="60" width="240" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="privateSubnet" value="Private Subnets (Multi-AZ)&#xa;EKS Cluster" style="swimlane;whiteSpace=wrap;html=1;horizontal=0;rounded=1;strokeColor=#FF9900;fillColor=#FFFFFF;fontStyle=1;" parent="vpc" vertex="1">
+          <mxGeometry x="60" y="300" width="1880" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="eks" value="Amazon EKS Cluster&#xa;.NET 10 Microservices&#xa;Managed Node Groups + Fargate" style="swimlane;whiteSpace=wrap;html=1;horizontal=0;rounded=1;strokeColor=#FF9900;fillColor=#FFF4E6;fontStyle=1;" parent="privateSubnet" vertex="1">
+          <mxGeometry x="60" y="60" width="1760" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="appmesh" value="AWS App Mesh&#xa;Service-to-Service Communication&#xa;mTLS, Traffic Policies" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#FF9900;fillColor=#FFD699;fontColor=#000000;" parent="eks" vertex="1">
+          <mxGeometry x="40" y="40" width="280" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="services" value="Domain Services (.NET 10)&#xa;Customer, Order, Product&#xa;Inventory, Payment, etc." style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#FF9900;fillColor=#FFD699;fontColor=#000000;" parent="eks" vertex="1">
+          <mxGeometry x="360" y="40" width="420" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="irsa" value="IAM Roles for Service Accounts&#xa;No Secrets in Pods" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#FF9900;fillColor=#FFD699;fontColor=#000000;" parent="eks" vertex="1">
+          <mxGeometry x="820" y="40" width="280" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="hpa" value="Cluster Autoscaler&#xa;KEDA for Event-Driven Scaling" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#FF9900;fillColor=#FFD699;fontColor=#000000;" parent="eks" vertex="1">
+          <mxGeometry x="1140" y="40" width="280" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="ecr" value="Amazon ECR&#xa;Private Repositories&#xa;Image Scanning, Lifecycle Policies" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#FF9900;fillColor=#FFD699;fontColor=#000000;" parent="eks" vertex="1">
+          <mxGeometry x="40" y="160" width="280" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="secrets" value="AWS Secrets Manager&#xa;Parameter Store&#xa;CSI Driver Integration" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#FF9900;fillColor=#FFD699;fontColor=#000000;" parent="eks" vertex="1">
+          <mxGeometry x="360" y="160" width="280" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="dataSubnet" value="Data Subnets (Multi-AZ)&#xa;RDS, ElastiCache, MSK" style="swimlane;whiteSpace=wrap;html=1;horizontal=0;rounded=1;strokeColor=#FF9900;fillColor=#FFFFFF;fontStyle=1;" parent="vpc" vertex="1">
+          <mxGeometry x="60" y="740" width="1880" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="rds" value="Amazon RDS PostgreSQL&#xa;Multi-AZ, Read Replicas&#xa;Automated Backups, Encryption" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#FF9900;fillColor=#FFD699;fontColor=#000000;" parent="dataSubnet" vertex="1">
+          <mxGeometry x="60" y="60" width="280" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="docdb" value="Amazon DocumentDB&#xa;MongoDB Compatible&#xa;Multi-AZ, Backup" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#FF9900;fillColor=#FFD699;fontColor=#000000;" parent="dataSubnet" vertex="1">
+          <mxGeometry x="380" y="60" width="280" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="elasticache" value="Amazon ElastiCache&#xa;Redis Cluster Mode&#xa;Multi-AZ, Backup" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#FF9900;fillColor=#FFD699;fontColor=#000000;" parent="dataSubnet" vertex="1">
+          <mxGeometry x="700" y="60" width="280" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="msk" value="Amazon MSK (Kafka)&#xa;Multi-AZ, Encryption&#xa;Schema Registry" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#FF9900;fillColor=#FFD699;fontColor=#000000;" parent="dataSubnet" vertex="1">
+          <mxGeometry x="1020" y="60" width="280" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="dynamodb" value="Amazon DynamoDB&#xa;Global Tables&#xa;On-Demand Scaling" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#FF9900;fillColor=#FFD699;fontColor=#000000;" parent="dataSubnet" vertex="1">
+          <mxGeometry x="1340" y="60" width="280" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="s3" value="Amazon S3&#xa;Data Lake, Backups&#xa;Lifecycle Policies, Encryption" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#FF9900;fillColor=#FFD699;fontColor=#000000;" parent="dataSubnet" vertex="1">
+          <mxGeometry x="1660" y="60" width="200" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="monitoring" value="Amazon CloudWatch&#xa;Container Insights&#xa;X-Ray Distributed Tracing" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#FF9900;fillColor=#FFD699;fontColor=#000000;" parent="vpc" vertex="1">
+          <mxGeometry x="60" y="1000" width="280" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="guardduty" value="Amazon GuardDuty&#xa;Threat Detection&#xa;Security Monitoring" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#FF9900;fillColor=#FFD699;fontColor=#000000;" parent="vpc" vertex="1">
+          <mxGeometry x="380" y="1000" width="280" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="codebuild" value="AWS CodeBuild / CodePipeline&#xa;CI/CD Pipelines&#xa;GitHub Actions Integration" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#FF9900;fillColor=#FFD699;fontColor=#000000;" parent="vpc" vertex="1">
+          <mxGeometry x="700" y="1000" width="280" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="edge1" style="endArrow=block;strokeColor=#333333;" parent="1" source="internet" target="cloudfront" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge2" style="endArrow=block;strokeColor=#333333;" parent="1" source="cloudfront" target="apigw" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge3" style="endArrow=block;strokeColor=#333333;" parent="1" source="apigw" target="alb" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge4" style="endArrow=block;strokeColor=#333333;" parent="1" source="alb" target="eks" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge5" style="endArrow=block;strokeColor=#333333;" parent="1" source="eks" target="rds" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge6" style="endArrow=block;strokeColor=#333333;" parent="1" source="eks" target="msk" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="legend" value="AWS Best Practices:&#xa;• Multi-AZ Deployment&#xa;• VPC with Private Subnets&#xa;• IAM Roles (IRSA)&#xa;• GitOps (Argo CD / Flux)&#xa;• CloudWatch + X-Ray&#xa;• Well-Architected Framework" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#FFFFFF;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="80" y="1360" width="400" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="diagram_legend" value="&lt;b&gt;Color Legend:&lt;/b&gt;&lt;br/&gt;&#xa;• &lt;span style=&quot;background-color:#0078D4;color:#FFFFFF;padding:2px 5px;&quot;&gt;Azure Blue&lt;/span&gt; = Azure Services&lt;br/&gt;&#xa;• &lt;span style=&quot;background-color:#FF9900;color:#FFFFFF;padding:2px 5px;&quot;&gt;AWS Orange&lt;/span&gt; = AWS Services&lt;br/&gt;&#xa;• &lt;span style=&quot;background-color:#4285F4;color:#FFFFFF;padding:2px 5px;&quot;&gt;GCP Blue&lt;/span&gt; = GCP Services&lt;br/&gt;&#xa;• &lt;span style=&quot;background-color:#E1F5FE;color:#000000;padding:2px 5px;&quot;&gt;Light Blue&lt;/span&gt; = Data/Storage" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#FFFFFF;fontColor=#000000;fontSize=12;align=left;verticalAlign=top;spacingLeft=10;spacingTop=5;" parent="1" vertex="1">
+          <mxGeometry x="520" y="1360" width="400" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="diagram_title" value="AWS Cloud Deployment (Detailed)&#xa;Version: 1.0 | Creator: Nithin Mohan T K | Date: 2025-11-22" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#E1F5FE;fontColor=#000000;fontSize=16;fontStyle=1;align=left;verticalAlign=top;spacingLeft=10;spacingTop=5;" parent="1" vertex="1">
+          <mxGeometry x="1280" y="40" width="470" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="deployment_steps" value="&lt;b&gt;Deployment Steps:&lt;/b&gt;&lt;br/&gt;&#xa;1. Create VPC &amp; Subnets&lt;br/&gt;&#xa;2. Setup CloudFront &amp; WAF&lt;br/&gt;&#xa;3. Deploy EKS Cluster&lt;br/&gt;&#xa;4. Configure API Gateway&lt;br/&gt;&#xa;5. Setup RDS &amp; Data Services&lt;br/&gt;&#xa;6. Configure CloudWatch" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#E8F5E9;fontColor=#000000;fontSize=11;align=left;verticalAlign=top;spacingLeft=5;spacingTop=3;" parent="1" vertex="1">
+          <mxGeometry x="960" y="1360" width="300" height="200" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="Sequence_Order_Saga" name="Sequence - Order Saga Interaction">
+    <mxGraphModel dx="2066" dy="1202" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2400" pageHeight="1600" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="customer" value="Customer" style="swimlane;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="100" y="100" width="150" height="1200" as="geometry" />
+        </mxCell>
+        <mxCell id="orderService" value="Order Service" style="swimlane;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="400" y="100" width="200" height="1200" as="geometry" />
+        </mxCell>
+        <mxCell id="inventoryService" value="Inventory Service" style="swimlane;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="750" y="100" width="200" height="1200" as="geometry" />
+        </mxCell>
+        <mxCell id="paymentService" value="Payment Service" style="swimlane;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="1100" y="100" width="200" height="1200" as="geometry" />
+        </mxCell>
+        <mxCell id="msg4" value="Step 4: Consume: order.created" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#9673a6;" parent="paymentService" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="700" y="280" as="sourcePoint" />
+            <mxPoint x="-150" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fulfillmentService" value="Fulfillment Service" style="swimlane;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="1450" y="100" width="200" height="1200" as="geometry" />
+        </mxCell>
+        <mxCell id="eventBus" value="Event Bus (Kafka)" style="swimlane;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
+          <mxGeometry x="1800" y="100" width="200" height="1200" as="geometry" />
+        </mxCell>
+        <mxCell id="msg1" value="Step 1: Place Order" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#333333;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="250" y="159" as="sourcePoint" />
+            <mxPoint x="400" y="159" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg3" value="Step 3: Publish: order.created" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#9673a6;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="600" y="300" as="sourcePoint" />
+            <mxPoint x="1800" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg5" value="Step 5: Reserve Stock" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#333333;dashed=1;" parent="1" edge="1">
+          <mxGeometry x="-1" y="250" relative="1" as="geometry">
+            <mxPoint x="950" y="437" as="sourcePoint" />
+            <mxPoint x="950" y="457" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg6" value="Step 6: Publish: inventory.reserved" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#9673a6;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1000" y="482" />
+              <mxPoint x="1000" y="482" />
+            </Array>
+            <mxPoint x="950" y="482" as="sourcePoint" />
+            <mxPoint x="1800" y="482" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg7" value="Step 7: Consume: order.created" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#9673a6;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1800" y="522" as="sourcePoint" />
+            <mxPoint x="1300" y="522" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg8" value="Step 8: Process Payment" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#333333;dashed=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1300" y="579" as="sourcePoint" />
+            <mxPoint x="1300" y="599" as="targetPoint" />
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="1320" y="579" />
+              <mxPoint x="1320" y="602" />
+              <mxPoint x="1300" y="602" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg9" value="Step 9: Publish: payment.completed" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#9673a6;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1300" y="662" as="sourcePoint" />
+            <mxPoint x="1800" y="662" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg10" value="Step 10: Consume: inventory.reserved + payment.completed" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#9673a6;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="980" y="734" />
+              <mxPoint x="980" y="734" />
+            </Array>
+            <mxPoint x="1800" y="734" as="sourcePoint" />
+            <mxPoint x="600" y="734" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg11" value="Step 11: Update Order: CONFIRMED" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#333333;dashed=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="600" y="784" as="sourcePoint" />
+            <mxPoint x="600" y="804" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg12" value="Step 12: Publish: order.confirmed" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#9673a6;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="600" y="862" as="sourcePoint" />
+            <mxPoint x="1800" y="862" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg13" value="Step 13: Consume: order.confirmed" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#9673a6;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1800" y="910" as="sourcePoint" />
+            <mxPoint x="1650" y="910" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg14" value="Step 14: Create Shipment" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#333333;dashed=1;" parent="1" edge="1">
+          <mxGeometry x="0.3333" y="446" relative="1" as="geometry">
+            <mxPoint x="1650" y="512" as="sourcePoint" />
+            <mxPoint x="1650" y="532" as="targetPoint" />
+            <mxPoint x="70" y="-6" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg15" value="Step 15: Order Confirmation" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#333333;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="964" as="sourcePoint" />
+            <mxPoint x="250" y="964" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="diagram_title" value="Sequence - Order Saga Interaction&#xa;Version: 1.0 | Creator: Nithin Mohan T K | Date: 2025-11-22" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#E1F5FE;fontColor=#000000;fontSize=16;fontStyle=1;align=left;verticalAlign=top;spacingLeft=10;spacingTop=5;" parent="1" vertex="1">
+          <mxGeometry x="40" y="20" width="600" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sequence_step_note" value="&lt;b&gt;Sequence Steps:&lt;/b&gt;&lt;br/&gt;Messages are numbered sequentially (Step 1, Step 2, etc.)" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#FFF9C4;fontColor=#000000;fontSize=11;align=left;verticalAlign=top;spacingLeft=5;spacingTop=3;" parent="1" vertex="1">
+          <mxGeometry x="1800" y="20" width="300" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="diagram_legend" value="&lt;b&gt;Color Legend:&lt;/b&gt;&lt;br/&gt;&#xa;• &lt;span style=&quot;background-color:#dae8fc;color:#000000;padding:2px 5px;&quot;&gt;Blue&lt;/span&gt; = Services/Actors&lt;br/&gt;&#xa;• &lt;span style=&quot;background-color:#e1d5e7;color:#000000;padding:2px 5px;&quot;&gt;Purple&lt;/span&gt; = Event Bus&lt;br/&gt;&#xa;• &lt;span style=&quot;color:#333333;&quot;&gt;Black Arrows&lt;/span&gt; = Synchronous Calls&lt;br/&gt;&#xa;• &lt;span style=&quot;color:#9673a6;&quot;&gt;Purple Arrows&lt;/span&gt; = Events" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#FFFFFF;fontColor=#000000;fontSize=12;align=left;verticalAlign=top;spacingLeft=10;spacingTop=5;" parent="1" vertex="1">
+          <mxGeometry x="50" y="1330" width="400" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="273iPMks6XR9baJlJPmZ-1" value="Step 2: Create Order (PENDING)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#333333;dashed=1;" edge="1" parent="1">
+          <mxGeometry x="0.125" relative="1" as="geometry">
+            <mxPoint x="600" y="190" as="sourcePoint" />
+            <mxPoint x="750" y="200" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="676" y="190" />
+              <mxPoint x="676" y="200" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RWA8DrGOyI21y9PgE7Z_-9" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;SORRY COULDN&#39;t COMPLETE IT FULLY, just a draft.&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="580" y="1350" width="740" height="140" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
